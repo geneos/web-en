@@ -2203,6 +2203,34 @@ header {
     color:#10161A;
 }
 
+.about-sliders {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.about-sliders .filters {
+    height: 50px;
+}
+
+
+.about-filters li{
+    float:left;
+    background-color:rgb(71,149,68,.7);
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+.about-filters li:hover{
+    cursor: pointer;
+    background-color:rgb(71,149,68,1);
+}
+
+.about-filters li.active{
+    background-color:rgb(71,149,68,1);
+}
+
 
 #about-slider .slick-dots li button:before {
     background-color: #0a236b;
@@ -2216,10 +2244,16 @@ header {
 
 #about-slider-for .blog-content {
     color:#0a236b;
+    text-align: left;
 }
 
 .blog {
     background-color:transparent;
+    width:100%;
+}
+
+.blog h2{
+    color:#0a236b;
 }
 
 #about-slider img {

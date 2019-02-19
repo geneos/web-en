@@ -698,24 +698,40 @@ section .section-title {
 					<h2 class="title">Success Stories</h2>
 				</div>
 
-				<div class="filters">
-					<ul class="blog-meta">
-						<li class="js-filter" meta-key="education">Education</li>
-						<li class="js-filter" meta-key="industry">Industry</li>
-					</ul>
-				</div>
+				<?php 
+
+				$filters = ['All'];
+
+				foreach($successHistories as $successHistory) { 
+					if ( array_search($successHistory["type"], $filters) === false )
+						$filters[] = $successHistory["type"];
+				} 
+
+				?>
+
+				
+				
 
 				<div class="about-sliders">
-					<div id="about-slider-for">
+					<div class="filters">
+						<ul class="about-filters">
+							<?php foreach($filters as $filter) { ?>
+								<li class="js-filter <?php echo $filter?>" data-key="<?php echo $filter?>"><?php echo $filter?></li>
+							<?php } ?>
+						</ul>
+					</div>
+					<div id="about-slider-for" class="filtering">
 						<?php foreach($successHistories as $successHistory) { ?>
-							<div>
+							<div data-key="<?php echo $successHistory["type"]?>">
 								<div class="blog row">
+									<div class="col-md-12">
+										<h2><?php echo $successHistory["name"]?></h3>
+										<h4>#<?php echo $successHistory["type"]?></h4>
+									</div>
 									<div class="blog-img col-md-6">
 										<img class="img-responsive" src="./img/<?php echo $successHistory["img"]?>" alt="">
 									</div>
 									<div class="blog-content col-md-6">
-										<h3><?php echo $successHistory["name"]?></h3>
-										<h4><?php echo $successHistory["type"]?></h4>
 										<p><strong>Technologies</strong></p>
 										<ul class="blog-meta">
 											<?php foreach($successHistory["technologies"] as $tech) {?>
@@ -733,9 +749,9 @@ section .section-title {
 							</div>
 						<?php } ?>
 					</div>
-					<div id="about-slider">
+					<div id="about-slider" class="filtering">
 						<?php foreach($successHistories as $successHistory) { ?>
-							<div>
+							<div data-key="<?php echo $successHistory["type"]?>">
 								<img width="300px" class="<?php echo $platform["size"] ?>" width="" src="./img/<?php echo $successHistory["img"]?>" alt="">
 							</div>
 						<?php } ?>
