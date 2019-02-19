@@ -249,7 +249,7 @@ section .section-title {
 				<!-- service -->
 				<div class="col-md-4 col-sm-6">
 					<div class="service">
-						<i class="icon-services icon-plataform">&#xe80d;</i>
+						<i class="icon-services icon-plataform"></i>
 						<h3>Free Software</h3>
 						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
 					</div>
@@ -259,7 +259,7 @@ section .section-title {
 				<!-- service -->
 				<div class="col-md-4 col-sm-6">
 					<div class="service">
-						<i class="icon-services icon-web">&#xe814;</i>
+						<i class="icon-services icon-web"></i>
 						<h3>Web & Mobile</h3>
 						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
 					</div>
@@ -269,7 +269,7 @@ section .section-title {
 				<!-- service -->
 				<div class="col-md-4 col-sm-6">
 					<div class="service">
-						<i class="icon-services icon-team">&#xe812;</i>
+						<i class="icon-services icon-team"></i>
 						<h3>Staff Augmentation</h3>
 						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
 					</div>
@@ -279,7 +279,7 @@ section .section-title {
 				<!-- service -->
 				<div class="col-md-4 col-sm-6">
 					<div class="service">
-						<i class="icon-services icon-infraestructure">&#xe806;</i>
+						<i class="icon-services icon-infraestructure"></i>
 						<h3>Servers Services</h3>
 						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
 					</div>
@@ -289,7 +289,7 @@ section .section-title {
 				<!-- service -->
 				<div class="col-md-4 col-sm-6">
 					<div class="service">
-						<i class="icon-services icon-design">&#xe803;</i>
+						<i class="icon-services icon-design"></i>
 						<h3>Graphic Design</h3>
 						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
 					</div>
@@ -299,7 +299,7 @@ section .section-title {
 				<!-- service -->
 				<div class="col-md-4 col-sm-6">
 					<div class="service">
-						<i class="icon-services icon-app">&#xe801;</i>
+						<i class="icon-services icon-app"></i>
 						<h3>App Development</h3>
 						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
 					</div>
@@ -481,6 +481,7 @@ section .section-title {
 				<!-- /Section header -->
 			</div>
 
+
 	        <div class="row">
 
 	        	<?php foreach($teamMembers as $teamMember) { ?>
@@ -491,7 +492,7 @@ section .section-title {
 		                	<img class=" img-fluid" src="./img/team/<?php echo $teamMember["id"]?>.jpeg" alt="card image">
 		                    <div class="card-body text-center">
 		                        <h4 class="card-title"><?php echo $teamMember["name"]; ?></h4>
-		                        <p class="card-text"><?php echo $teamMember["short_desc"]; ?></p>
+		                        <p class="card-text"><?php echo $teamMember["desc_short"]; ?></p>
 		                        <a href="#member-pablo" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
 		                    </div>
 		                </div>
@@ -531,6 +532,79 @@ section .section-title {
 	    </div>
     </div>
     <!-- Team -->
+
+    <div id="dummy" class="section md-padding">
+    </div>
+
+    <!-- Team -->
+	<div id="team" class="alt section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Our Team</h2>
+				</div>
+				<!-- /Section header -->
+			</div>
+
+			
+	        <div class="row">
+
+	        	<?php foreach($teamMembers as $teamMember) { ?>
+
+	        		<!-- Team member -->
+		            <div class="member-card col-xs-12 col-sm-6 col-md-3">
+		                <div class="card">
+		                	<img class="img1 img-fluid" src="./img/team/<?php echo $teamMember["id"]?>.jpeg" alt="card image">
+		                	<img class="img2 img-fluid" src="./img/team/<?php echo $teamMember["id"]?>2.jpeg" alt="card image">
+		                    <div class="card-body text-center">
+		                        <h4 class="card-title"><?php echo $teamMember["name"]; ?></h4>
+		                        <p class="card-text"><?php echo $teamMember["desc_short"]; ?></p>
+		                    </div>
+		                </div>
+
+		                <div id="member-<?php echo $teamMember["id"]?>" class="mfp-hide white-popup">
+		                    <h4 class="card-title"><?php echo $teamMember["name"]; ?></h4>
+		                    <p class="card-text"><?php echo $teamMember["desc_long"]; ?></p>
+		                    <ul class="list-inline">
+		                        <li class="list-inline-item">
+		                            <a class="social-icon text-xs-center" target="_blank" href="#">
+		                                <i class="fa fa-facebook"></i>
+		                            </a>
+		                        </li>
+		                        <li class="list-inline-item">
+		                            <a class="social-icon text-xs-center" target="_blank" href="#">
+		                                <i class="fa fa-twitter"></i>
+		                            </a>
+		                        </li>
+		                        <li class="list-inline-item">
+		                            <a class="social-icon text-xs-center" target="_blank" href="#">
+		                                <i class="fa fa-skype"></i>
+		                            </a>
+		                        </li>
+		                        <li class="list-inline-item">
+		                            <a class="social-icon text-xs-center" target="_blank" href="#">
+		                                <i class="fa fa-google"></i>
+		                            </a>
+		                        </li>
+		                    </ul>
+		                </div>
+
+		            </div>
+		            <!-- ./Team member -->
+	        	<?php } ?>
+
+	        </div>
+	    </div>
+    </div>
+    <!-- Team -->
+
+
 
     <?php
 

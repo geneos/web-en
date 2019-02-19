@@ -210,12 +210,6 @@ ul, ol {
     font-size: 22px;
 }
 
-/*.section-header-team {
-    position: relative;
-    margin-bottom: 60px;
-    color: #FFFFFF;
-}*/
-
 .section-header-services {
     position: relative;
     margin-bottom: 30px;
@@ -2146,6 +2140,62 @@ header {
 #team .member-card{
     margin-bottom:40px;
 }
+
+
+
+
+#team.alt .card{
+    overflow: hidden;
+    border:1px solid;
+    margin: 10px 10px;
+}
+
+#team.alt .card:before{
+    display: block;
+    width: 222px;
+    height: 223px;
+    background-color: transparent;
+    border: 150px solid #0a236b;
+    left: -141px;
+    top: -142px;
+    box-sizing: content-box;
+    border-radius: 50%;
+    content: '';
+    position: absolute;
+}
+
+#team .card .img1 {
+    border-radius: 0px;
+}
+
+#team .card .img2 {
+    visibility: hidden;
+    position:absolute;
+    top:0;
+    border-radius: 0px;
+}
+
+#team.alt .card .card-body{
+    opacity:1;
+    color:white;
+    padding-top: 250px;
+    background-color:transparent;
+    border-radius: 0px;
+}
+
+#team .card:hover .img2{
+    visibility: initial;
+}
+
+#team .card:hover .img1{
+    visibility: hidden;
+}
+
+#team.alt .card:hover .card-body{
+    background-color: rgba(71,149,68,.4);
+    transition:0.5s;
+}
+
 
 /******* SUCCESS HISTORIES **************/
 
