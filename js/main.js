@@ -52,6 +52,9 @@
 
 		// Back To Top Appear
 		wScroll > 700 ? $('#back-to-top').fadeIn() : $('#back-to-top').fadeOut();
+
+		// Section on color
+		wScroll > 1914 ? $('#back-to-top').addClass('green') : $('#back-to-top').removeClass('green');
 	});
 
 	///////////////////////////

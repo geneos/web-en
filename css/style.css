@@ -2090,38 +2090,29 @@ header {
     bottom: -50px;
 }
 
-/**************** TEAM *****************/
-#team .frontside,
-#team .backside {
+/******* TEAM **************/
+
+#team .title:after {
     background-color:white;
-    border-radius: 8px;
 }
 
-/******* TEAM 2 **************/
-#team2 .title {
-    color: #10161A;
-}
-
-#team2 .title:after {
-    background-color:#479544;
-}
-
-#team2 .card .img-fluid {
+#team .card .img-fluid {
     width: 100%;
     height: auto;
     border-radius: 50%;
 }
 
-#team2 .card {
+#team .card {
     position:relative;
     margin: 10px 20px;
+    padding: 0px;
 }
 
-#team2 .card:hover {
+#team .card:hover {
     cursor:pointer;
 }
 
-#team2 .card .card-body {
+#team .card .card-body {
     position:absolute;
     padding-top: 100px;
     opacity:0;
@@ -2134,7 +2125,7 @@ header {
     transition: 1s;
 }
 
-#team2 .card:hover .card-body{
+#team .card:hover .card-body{
     opacity:1;
 }
 
@@ -2152,3 +2143,18 @@ header {
     color: #0a236b;
 }
 
+/******* SUCCESS HISTORIES **************/
+
+#blog .title {
+    color:#10161A;
+}
+
+/*** CUSTOM ***/
+
+#back-to-top {
+    transition:  background-color 1s, border-radius .5s;
+}
+
+#back-to-top.green {
+    background-color:#479544;
+}
