@@ -2153,7 +2153,7 @@ header {
 #team.alt .card:before{
     display: block;
     width: 222px;
-    height: 223px;
+    height: 240px;
     background-color: transparent;
     border: 150px solid #0a236b;
     left: -141px;
