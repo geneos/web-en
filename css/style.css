@@ -2153,6 +2153,29 @@ header {
     color:#10161A;
 }
 
+
+#about-slider .slick-dots li button:before {
+    background-color: #0a236b;
+    border-radius: 16px;
+}
+
+#about-slider .slick-list{
+    padding:0px !important;
+    margin: 0 50px;
+}
+
+#about-slider-for .blog-content {
+    color:#0a236b;
+}
+
+.blog {
+    background-color:transparent;
+}
+
+#about-slider img {
+    margin: 0 auto;
+}
+
 /*** CUSTOM ***/
 
 #back-to-top {
@@ -2321,3 +2344,8 @@ header {
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }    
+
+.slick-slide img {
+    max-width: 100%;
+    height: auto;
+}

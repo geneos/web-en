@@ -420,10 +420,10 @@ section .section-title {
 			"id" => "pablo"
 		],
 		[
-			"name" => "Pablo Velazquez",
+			"name" => "Ibrian Gomez",
 			"desc_short" => "The Magic!",
 			"desc_long" => "This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.",
-			"id" => "pablo"
+			"id" => "ibrian"
 		],
 		[
 			"name" => "Pablo Velazquez",
@@ -488,7 +488,7 @@ section .section-title {
 	        		<!-- Team member -->
 		            <div class="member-card col-xs-12 col-sm-6 col-md-3">
 		                <div class="card">
-		                	<img class=" img-fluid" src="./img/team/<?php echo $teamMember["id"]?>.jpg" alt="card image">
+		                	<img class=" img-fluid" src="./img/team/<?php echo $teamMember["id"]?>.jpeg" alt="card image">
 		                    <div class="card-body text-center">
 		                        <h4 class="card-title"><?php echo $teamMember["name"]; ?></h4>
 		                        <p class="card-text"><?php echo $teamMember["short_desc"]; ?></p>
@@ -570,6 +570,7 @@ section .section-title {
 		<div class="container">
 
 			<!-- Row -->
+			<?php /* ?>
 			<div class="row">
 
 				<!-- Section header -->
@@ -578,7 +579,7 @@ section .section-title {
 				</div>
 				<!-- /Section header -->
 
-
+				
 				<!-- About slider -->
 				<div>
 					<div id="about-slider" class="owl-carousel owl-theme">
@@ -611,6 +612,61 @@ section .section-title {
 					</div>
 				</div>
 
+			</div>
+			<?php */ ?>
+			<!-- /Row -->
+
+
+							<!-- Row -->
+			<div class="row">
+
+				<div class="section-header text-center">
+					<h2 class="title">Success Stories</h2>
+				</div>
+
+				<div class="filters">
+					<ul class="blog-meta">
+						<li class="js-filter" meta-key="education">Education</li>
+						<li class="js-filter" meta-key="industry">Industry</li>
+					</ul>
+				</div>
+
+				<div class="about-sliders">
+					<div id="about-slider-for">
+						<?php foreach($successHistories as $successHistory) { ?>
+							<div>
+								<div class="blog row">
+									<div class="blog-img col-md-6">
+										<img class="img-responsive" src="./img/<?php echo $successHistory["img"]?>" alt="">
+									</div>
+									<div class="blog-content col-md-6">
+										<h3><?php echo $successHistory["name"]?></h3>
+										<h4><?php echo $successHistory["type"]?></h4>
+										<p><strong>Technologies</strong></p>
+										<ul class="blog-meta">
+											<?php foreach($successHistory["technologies"] as $tech) {?>
+												<li><i class="icon-tec-med icon-<?php echo $tech ?>"></i></li>
+											<?php } ?>
+										</ul>
+										<p>
+											<strong>Problem:</strong> <?php echo $successHistory["problem"]?>
+										</p>
+										<p>
+											<strong>Solution:</strong> <?php echo $successHistory["solution"]?>
+										</p>
+									</div>
+								</div>
+							</div>
+						<?php } ?>
+					</div>
+					<div id="about-slider">
+						<?php foreach($successHistories as $successHistory) { ?>
+							<div>
+								<img width="300px" class="<?php echo $platform["size"] ?>" width="" src="./img/<?php echo $successHistory["img"]?>" alt="">
+							</div>
+						<?php } ?>
+					</div>
+				</div>
 			</div>
 			<!-- /Row -->
 

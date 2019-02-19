@@ -73,7 +73,7 @@
 
 	///////////////////////////
 	// Owl Carousel
-	$('#about-slider').owlCarousel({
+	/*$('#about-slider').owlCarousel({
 		items:1,
 		loop:true,
 		margin:15,
@@ -82,7 +82,7 @@
 		dots : true,
 		autoplay : true,
 		animateOut: 'fadeOut'
-	});
+	});*/
 
 	$('#testimonial-slider').owlCarousel({
 		loop:true,
@@ -102,6 +102,40 @@
 		// 		items:2
 		// 	}
 		// }
+	});
+
+	$('#about-slider-for').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows: false,
+		fade: true,
+		asNavFor: '#about-slider'
+	});
+	$('#about-slider').slick({
+		slidesToShow: 2,
+		slidesToScroll: 1,
+		asNavFor: '#about-slider-for',
+		dots: true,
+		centerMode: true,
+		focusOnSelect: true,
+		arrows: false,
+		centerMode: true,
+		autoplay:true,
+	});
+
+	var platformFiltered = false;
+
+	$('.js-filter').on('click', function(e){
+		console.log(e.target)
+	  if (platformFiltered === false) {
+	    $('.filtering').slick('slickFilter',':even');
+	    $(this).text('Unfilter Slides');
+	    platformFiltered = true;
+	  } else {
+	    $('.filtering').slick('slickUnfilter');
+	    $(this).text('Filter Slides');
+	    platformFiltered = false;
+	  }
 	});
 
 	/* Platforms */
