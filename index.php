@@ -426,22 +426,22 @@ section .section-title {
 			"id" => "ibrian"
 		],
 		[
-			"name" => "Pablo Velazquez",
+			"name" => "Jose Fantasia",
 			"desc_short" => "The Magic!",
 			"desc_long" => "This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.",
-			"id" => "pablo"
+			"id" => "jose"
 		],
 		[
-			"name" => "Pablo Velazquez",
+			"name" => "Mario Ferreyra",
 			"desc_short" => "The Magic!",
 			"desc_long" => "This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.",
-			"id" => "pablo"
+			"id" => "mario"
 		],
 		[
-			"name" => "Pablo Velazquez",
+			"name" => "Cesar Tynik",
 			"desc_short" => "The Magic!",
 			"desc_long" => "This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.",
-			"id" => "pablo"
+			"id" => "cesar"
 		],
 		[
 			"name" => "Pablo Velazquez",
