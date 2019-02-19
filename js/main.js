@@ -20,7 +20,7 @@
 		e.preventDefault();
 		var hash = this.hash;
 		$('html, body').animate({
-			scrollTop: $(this.hash).offset().top
+			scrollTop: $(this.hash).offset().top-70
 		}, 600);
 	});
 
@@ -61,6 +61,13 @@
 		type: 'image'
 	});
 
+	$('.member-card').magnificPopup({
+	  delegate: 'a', // child items selector, by clicking on it popup will open
+	  type: 'inline',
+	  closeBtnInside:true
+	  // other options
+	});
+
 	///////////////////////////
 	// Owl Carousel
 	$('#about-slider').owlCarousel({
@@ -77,17 +84,41 @@
 	$('#testimonial-slider').owlCarousel({
 		loop:true,
 		margin:15,
-		dots : true,
+		dots : false,
 		nav: false,
 		autoplay : true,
-		responsive:{
-			0: {
-				items:1
-			},
-			992:{
-				items:2
-			}
-		}
+		singleItem:true,
+		items:3,
+		navText : ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+		dots : true,
+		// responsive:{
+		// 	0: {
+		// 		items:1
+		// 	},
+		// 	992:{
+		// 		items:2
+		// 	}
+		// }
+	});
+
+	/* Platforms */
+	$('#platform-slider-for').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows: false,
+		fade: true,
+		asNavFor: '#platform-slider'
+	});
+	$('#platform-slider').slick({
+		slidesToShow: 6,
+		slidesToScroll: 1,
+		asNavFor: '#platform-slider-for',
+		dots: true,
+		centerMode: true,
+		focusOnSelect: true,
+		arrows: false,
+		centerMode: true,
+		autoplay:true,
 	});
 
 })(jQuery);

@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<title>Geneos Cooperative</title>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+	<!-- Owl Carousel -->
+	<link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
+	<link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
+
+	<!-- Magnific Popup -->
+	<link type="text/css" rel="stylesheet" href="css/magnific-popup.css" />
+
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+	<style>
+
+	@font-face {
+      font-family: 'geneos';
+      src: url('./font/geneos.eot?14837863');
+      src: url('./font/geneos.eot?14837863#iefix') format('embedded-opentype'),
+           url('./font/geneos.woff?14837863') format('woff'),
+           url('./font/geneos.ttf?14837863') format('truetype'),
+           url('./font/geneos.svg?14837863#geneos') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+     
+    .icon-header
+    {
+      font-family: "geneos";
+      font-style: normal;
+      font-weight: normal;
+      speak: none;
+     
+      display: inline-block;
+      text-decoration: inherit;
+      width: 1em;
+      margin-right: .2em;
+      text-align: center;
+      color: white;
+      /* opacity: .8; */
+     
+      /* For safety - reset parent styles, that can break glyph codes*/
+      font-variant: normal;
+      text-transform: none;
+     
+      /* fix buttons height, for twitter bootstrap */
+      line-height: 1em;
+     
+      /* Animation center compensation - margins should be symmetric */
+      /* remove if not needed */
+      margin-left: .2em;
+     
+      /* You can be more comfortable with increased icons size */
+      font-size: 280%;
+     
+      /* Font smoothing. That was taken from TWBS */
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+     
+      /* Uncomment for 3D effect */
+      /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+    }   
+
+
+    .icon-services
+    {
+      font-family: "geneos";
+      font-style: normal;
+      font-weight: normal;
+      speak: none;
+     
+      display: inline-block;
+      text-decoration: inherit;
+      width: 1em;
+      margin-right: .2em;
+      text-align: center;
+      color: white;
+      /* opacity: .8; */
+     
+      /* For safety - reset parent styles, that can break glyph codes*/
+      font-variant: normal;
+      text-transform: none;
+     
+      /* fix buttons height, for twitter bootstrap */
+      line-height: 1em;
+     
+      /* Animation center compensation - margins should be symmetric */
+      /* remove if not needed */
+      margin-left: .2em;
+     
+      /* You can be more comfortable with increased icons size */
+      font-size: 300%;
+     
+      /* Font smoothing. That was taken from TWBS */
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+     
+      /* Uncomment for 3D effect */
+      /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+    }   
+
+    .demo-icon
+    {
+      font-family: "geneos";
+      font-style: normal;
+      font-weight: normal;
+      speak: none;
+     
+      display: inline-block;
+      text-decoration: inherit;
+      width: 1em;
+      margin-right: .2em;
+      text-align: center;
+      /* opacity: .8; */
+     
+      /* For safety - reset parent styles, that can break glyph codes*/
+      font-variant: normal;
+      text-transform: none;
+     
+      /* fix buttons height, for twitter bootstrap */
+      line-height: 1em;
+     
+      /* Animation center compensation - margins should be symmetric */
+      /* remove if not needed */
+      margin-left: .2em;
+     
+      /* You can be more comfortable with increased icons size */
+      font-size: 500%;
+     
+      /* Font smoothing. That was taken from TWBS */
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+     
+      /* Uncomment for 3D effect */
+      /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+    }
+
+    .icon-tec
+    {
+      font-family: "geneos";
+      font-style: normal;
+      font-weight: normal;
+      speak: none;
+     
+      display: inline-block;
+      text-decoration: inherit;
+      width: 1em;
+      margin-right: .2em;
+      text-align: center;
+      /* opacity: .8; */
+     
+      /* For safety - reset parent styles, that can break glyph codes*/
+      font-variant: normal;
+      text-transform: none;
+     
+      /* fix buttons height, for twitter bootstrap */
+      line-height: 1em;
+     
+      /* Animation center compensation - margins should be symmetric */
+      /* remove if not needed */
+      margin-left: .2em;
+     
+      /* You can be more comfortable with increased icons size */
+      font-size: 90%;
+     
+      /* Font smoothing. That was taken from TWBS */
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+     
+      /* Uncomment for 3D effect */
+      /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+    }    
+    </style>
+
+    <link rel="stylesheet" href="css/animation.css">
+    <!--[if IE 7]><link rel="stylesheet" href="css/" + font.fontname + "-ie7.css"><![endif]-->
+    <script>
+      function toggleCodes(on) {
+        var obj = document.getElementById('icons');
+      
+        if (on) {
+          obj.className += ' codesOn';
+        } else {
+          obj.className = obj.className.replace(' codesOn', '');
+        }
+      }
+      
+    </script>
+
+</head>
+
+<body>
+	<!-- Header -->
+	<header id="home">
+		<!-- Background Image -->
+		<div class="bg-img" style="background-image: url('./img/background1.jpg');">
+			<div class="overlay"></div>
+		</div>
+		<!-- /Background Image -->
+
+		<!-- Nav -->
+		<nav id="nav" class="navbar nav-transparent">
+			<div class="container">
+
+				<div class="navbar-header">
+					<!-- Logo -->
+					<div class="navbar-brand">
+						<a href="index.html">
+							<img class="logo" src="img/logo.png" alt="logo">
+							<img class="logo-alt" src="img/logo-alt.png" alt="logo">
+						</a>
+					</div>
+					<!-- /Logo -->
+
+					<!-- Collapse nav button -->
+					<div class="nav-collapse">
+						<span></span>
+					</div>
+					<!-- /Collapse nav button -->
+				</div>
+
+				<!--  Main navigation  -->
+				<ul class="main-nav nav navbar-nav navbar-right">
+					<!-- <li><a href="#home">Home</a></li> -->
+					<li><a href="#about">Who we are?</a></li>
+					<li><a href="#service">why choose us?</a></li>
+					<li><a href="#technologies">Technologies</a></li>
+					<li><a href="#team">Team</a></li>
+					<li><a href="#stories">Success Stories</a></li>
+					<li><a href="#footer">Contact</a></li>
+				</ul>
+				<!-- /Main navigation -->
+
+			</div>
+		</nav>
+		<!-- /Nav -->
+
+		<!-- home wrapper -->
+		<div class="home-wrapper">
+			<div class="container">
+				<div class="row">
+
+					<!-- home content -->
+					<div class="col-md-10 col-md-offset-1">
+						<div class="home-content">
+							<h2 class="white-text">Equality unites us,</h2>
+							<h2 class="white-text">the cooperative strengthens us</h2>
+							<div style="padding-top: 150px;">
+							<a href="#about"><i class="fa fa-arrow-circle-down white-text" style="font-size: 40pt;"></i></a>
+								
+							</div>
+							
+<!-- 							<button class="white-btn">Get Started!</button>
+							<button class="main-btn">Learn more</button> -->
+						</div>
+					</div>
+					<!-- /home content -->
+
+				</div>
+			</div>
+		</div>
+		<!-- /home wrapper -->
+
+	</header>
+	<!-- /Header -->
+
+	<!-- About -->
+	<div id="about" class="section md-padding" style="background-color: #0a236b;">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header-about text-center">
+					<h2 class="title">Who we are?</h2>
+					<div class="section-desc-center">
+						<h4>We are a technology-based Cooperative organization specialized in the development of web and stand alone applications under free software.
+					</h4>
+					</div>					
+				</div>
+				<!-- /Section header -->
+
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<!-- <i class="fa fa-cogs"></i> -->
+						<h3>Abous Us</h3>
+						<p>Founded in 2013 by systems engineers, programmers and design professionals that allow us to work in an integral way in the search of solutions for our clients to help improve their overall business results and gain more from their technology investments.</p>
+					</div>
+				</div>
+				<!-- /about -->
+
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<!-- <i class="fa fa-cubes"></i> -->
+						<h3>About our Work</h3>
+						<p>We work with Agile methodologies for each project involving the customer in the whole cycle and our processes are designed to make our team more efficient, more focused, and more consistent.</p>
+						<br>
+					</div>
+				</div>
+				<!-- /about -->
+
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<!-- <i class="fa fa-indent"></i> -->
+						<h3>Our philosophy</h3>
+						<p>The more efficient we are the faster we get results; the more focus we have the better the code; and the more consistent we become the more predictable our output and accurate our planning.</p>
+						<br>
+						<br>
+					</div>
+				</div>
+				<!-- /about -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /About -->
+
+
+	<!-- Service -->
+	<div id="service" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header-services text-center">
+					<h2 class="title">Our services</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="icon-services icon-plataform">&#xe80d;</i>
+						<h3>Free Software</h3>
+						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="icon-services icon-web">&#xe814;</i>
+						<h3>Web & Mobile</h3>
+						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="icon-services icon-team">&#xe812;</i>
+						<h3>Staff Augmentation</h3>
+						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="icon-services icon-infraestructure">&#xe806;</i>
+						<h3>Servers Services</h3>
+						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="icon-services icon-design">&#xe803;</i>
+						<h3>Graphic Design</h3>
+						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="icon-services icon-app">&#xe801;</i>
+						<h3>App Development</h3>
+						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+					</div>
+				</div>
+				<!-- /service -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Service -->
+	
+	<!-- Testimonial -->
+	<div id="technologies" class="section md-padding" style="background-color: #479544">
+		<!-- Section header -->
+		<div class="section-header text-center">
+			<h2 class="title" style="color: #FFFFFF;">Plataforms, Frameworks & Languages</h2>
+		</div>
+		<!-- /Section header -->
+
+		<div class="section md-padding">
+
+		<!-- Background Image -->
+		<div class="bg-img">
+			<div class="overlay"></div>
+		</div>
+		<!-- /Background Image -->
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Testimonial slider -->
+				<!-- <div class="col-md-12 col-md-offset-1"> -->
+				<div class="section-slider-center">
+					<div id="testimonial-slider" class="owl-carousel owl-theme">
+						<div>
+							<img src="./img/icons/plataform_all.svg" alt="">
+						</div>
+						<div>
+							<img src="./img/icons/app_all.svg" alt="">
+						</div>
+					</div>
+				</div>
+				<!-- /Testimonial slider -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+		</div>
+
+	</div>
+	<!-- /Testimonial -->
+
+	<!-- Team -->
+	<div id="team" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Our Team</h2>
+				</div>
+				<!-- /Section header -->
+			</div>
+			<div class="row">
+				<!-- team -->
+				<div class="col-sm-3">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./img/team/mario.jpg" alt="">
+							<div class="overlay">
+								<div class="team-social">
+									<a href="#"><i class="fa fa-linkedin"></i></a>
+									<a href="#"><i class="fa fa-github"></i></a>
+									<a href="#"><i class="fa fa-address-card"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3>Marito Ferreyra</h3>
+							<div><i class="fa fa-battery-full"></i> Skill 1</div>
+							<div><i class="fa fa-battery-3"></i> Skill 2</div>
+							<div><i class="fa fa-battery-1"></i> Skill 3</div>
+						</div>
+					</div>
+				</div>
+				<!-- /team -->
+
+				<!-- team -->
+				<div class="col-sm-3">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./img/team/martin.jpg" alt="">
+							<div class="overlay">
+								<div class="team-social">
+									<a href="#"><i class="fa fa-linkedin"></i></a>
+									<a href="#"><i class="fa fa-github"></i></a>
+									<a href="#"><i class="fa fa-address-card"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3>Martin Di Lisio</h3>
+							<div><i class="fa fa-battery-full"></i> Skill 1</div>
+							<div><i class="fa fa-battery-3"></i> Skill 2</div>
+							<div><i class="fa fa-battery-1"></i> Skill 3</div>
+						</div>
+					</div>
+				</div>
+				<!-- /team -->
+
+				<!-- team -->
+				<div class="col-sm-3">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./img/team/pablo.jpg" alt="">
+							<div class="overlay">
+								<div class="team-social">
+									<a href="#"><i class="fa fa-linkedin"></i></a>
+									<a href="#"><i class="fa fa-github"></i></a>
+									<a href="#"><i class="fa fa-address-card"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3>Pablocho Velazquez</h3>
+							<div><i class="fa fa-battery-full"></i> Skill 1</div>
+							<div><i class="fa fa-battery-3"></i> Skill 2</div>
+							<div><i class="fa fa-battery-1"></i> Skill 3</div>
+						</div>
+					</div>
+				</div>
+				<!-- /team -->
+								<!-- team -->
+				<div class="col-sm-3">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./img/team/pablo.jpg" alt="">
+							<div class="overlay">
+								<div class="team-social">
+									<a href="#"><i class="fa fa-linkedin"></i></a>
+									<a href="#"><i class="fa fa-github"></i></a>
+									<a href="#"><i class="fa fa-address-card"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3>Pablocho Velazquez</h3>
+							<div><i class="fa fa-battery-full"></i> Skill 1</div>
+							<div><i class="fa fa-battery-3"></i> Skill 2</div>
+							<div><i class="fa fa-battery-1"></i> Skill 3</div>
+						</div>
+					</div>
+				</div>
+				<!-- /team -->
+
+			</div>
+			<!-- /Row -->
+			<div class="row">
+				<!-- team -->
+				<div class="col-sm-3">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./img/team/mario.jpg" alt="">
+							<div class="overlay">
+								<div class="team-social">
+									<a href="#"><i class="fa fa-linkedin"></i></a>
+									<a href="#"><i class="fa fa-github"></i></a>
+									<a href="#"><i class="fa fa-address-card"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3>Marito Ferreyra</h3>
+							<div><i class="fa fa-battery-full"></i> Skill 1</div>
+							<div><i class="fa fa-battery-3"></i> Skill 2</div>
+							<div><i class="fa fa-battery-1"></i> Skill 3</div>
+						</div>
+					</div>
+				</div>
+				<!-- /team -->
+
+				<!-- team -->
+				<div class="col-sm-3">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./img/team/martin.jpg" alt="">
+							<div class="overlay">
+								<div class="team-social">
+									<a href="#"><i class="fa fa-linkedin"></i></a>
+									<a href="#"><i class="fa fa-github"></i></a>
+									<a href="#"><i class="fa fa-address-card"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3>Martin Di Lisio</h3>
+							<div><i class="fa fa-battery-full"></i> Skill 1</div>
+							<div><i class="fa fa-battery-3"></i> Skill 2</div>
+							<div><i class="fa fa-battery-1"></i> Skill 3</div>
+						</div>
+					</div>
+				</div>
+				<!-- /team -->
+
+				<!-- team -->
+				<div class="col-sm-3">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./img/team/pablo.jpg" alt="">
+							<div class="overlay">
+								<div class="team-social">
+									<a href="#"><i class="fa fa-linkedin"></i></a>
+									<a href="#"><i class="fa fa-github"></i></a>
+									<a href="#"><i class="fa fa-address-card"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3>Pablocho Velazquez</h3>
+							<div><i class="fa fa-battery-full"></i> Skill 1</div>
+							<div><i class="fa fa-battery-3"></i> Skill 2</div>
+							<div><i class="fa fa-battery-1"></i> Skill 3</div>
+						</div>
+					</div>
+				</div>
+				<!-- /team -->
+								<!-- team -->
+				<div class="col-sm-3">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./img/team/pablo.jpg" alt="">
+							<div class="overlay">
+								<div class="team-social">
+									<a href="#"><i class="fa fa-linkedin"></i></a>
+									<a href="#"><i class="fa fa-github"></i></a>
+									<a href="#"><i class="fa fa-address-card"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3>Pablocho Velazquez</h3>
+							<div><i class="fa fa-battery-full"></i> Skill 1</div>
+							<div><i class="fa fa-battery-3"></i> Skill 2</div>
+							<div><i class="fa fa-battery-1"></i> Skill 3</div>
+						</div>
+					</div>
+				</div>
+				<!-- /team -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Team -->
+
+
+	<!-- Blog -->
+	<div id="stories" class="section md-padding bg-grey" >
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Success Stories</h2>
+				</div>
+				<!-- /Section header -->
+
+
+				<!-- About slider -->
+				<div>
+					<div id="about-slider" class="owl-carousel owl-theme">
+						<div>
+							<div class="blog row">
+								<div class="blog-img col-md-6">
+									<img class="img-responsive" src="./img/panalab-02.png" alt="">
+								</div>
+								<div class="blog-content col-md-6">
+									<h3>PANALAB Laboratories</h3>
+									<h4>Industry</h4>
+									<p><strong>Technologies</strong></p>
+									<ul class="blog-meta">
+										<li><i class="icon-tec icon-java">&#xe807;</i>  JAVA</li>
+										<li><i class="icon-tec icon-postgresql">&#xe80f;</i>  PostgresSQL</li>
+										<li><i class="fa fa-tv"></i>  Compiere</li>
+									</ul>
+									<p>
+										<strong>Problem:</strong> Solve the computerization of production management and integrate production with administrative management.
+									</p>
+									<p>
+										<strong>Solution:</strong> Implementation of Compiere ERP and the Líbero MRP module for production management.
+									</p>
+									<a href="blog-single.html">Read more</a>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class="blog row">
+								<div class="blog-img col-md-6">
+									<img class="img-responsive" src="./img/unaj-01.png" alt="">
+								</div>
+								<div class="blog-content col-md-6">
+									<h3>UNAJ University</h3>
+									<h4>Education</h4>
+									<p><strong>Technologies</strong></p>
+									<ul class="blog-meta">
+										<li><i class="icon-tec icon-moodle">&#xe809;</i>  Moodle</li>
+										<li><i class="icon-tec icon-nodejs">&#xe80a;</i>  Node.js</li>
+										<li><i class="icon-tec icon-reactjs">&#xe810;</i>  React.js</li>
+									</ul>
+									<p>
+										<strong>Problem:</strong> integrate the Moodle and SIU Guarani platforms.
+									</p>
+									<p>
+										<strong>Solution:</strong> Development of an interface to synchronize these platforms.
+									</p>
+									<a href="blog-single.html">Read more</a>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class="blog row">
+								<div class="blog-img col-md-6">
+									<img class="img-responsive" src="./img/mateo-01.png" alt="">
+								</div>
+								<div class="blog-content col-md-6">
+									<h3>Mateo Hermanos S.A.</h3>
+									<h4>Industry</h4>
+									<p><strong>Technologies</strong></p>
+									<ul class="blog-meta">
+										<li><i class="fa fa-user"></i>  JAVA</li>
+										<li><i class="icon-tec icon-postgresql">&#xe80f;</i>  PostgresSQL</li>
+										<li><i class="fa fa-tv"></i>  Libertya</li>
+									</ul>
+									<p>
+										<strong>Problem:</strong> Solve the computerization of production management .
+									</p>
+									<p>
+										<strong>Solution:</strong> Implementation of Libertya MRP, an module of Libertya ERP for production management.
+									</p>
+									<a href="blog-single.html">Read more</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Blog -->
+
+
+	<!-- Footer -->
+	<!-- <footer id="footer" class="sm-padding bg-dark"> -->
+	<footer id="footer" class="sm-padding">
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<div class="col-md-12">
+
+					<!-- footer logo -->
+<!-- 					<div class="footer-logo">
+						<i class="icon-header icon-logo-geneos">&#xe808;</i>
+					</div> -->
+					<!-- /footer logo -->
+
+
+					<div class="row">
+
+						<!-- contact -->
+						<div class="col-sm-4">
+							<div class="contact">
+								<i class="fa fa-phone"></i>
+								<h5 style="color: #6195ff;">Phone</h5>
+								<p>+54 249 4380914</p>
+							</div>
+						</div>
+						<!-- /contact -->
+
+						<!-- contact -->
+						<div class="col-sm-4">
+							<div class="contact">
+								<i class="fa fa-envelope"></i>
+								<h5>Email</h5>
+								<p>info@geneos.com.ar</p>
+							</div>
+						</div>
+						<!-- /contact -->
+
+						<!-- contact -->
+						<div class="col-sm-4">
+							<div class="contact">
+								<i class="fa fa-map-marker"></i>
+								<h5>Address</h5>
+								<p>Paz 440 - Tandil - Buenos Aires - Argentina</p>
+							</div>
+						</div>
+						<!-- /contact -->
+					</div>
+					<!-- /Row -->
+
+
+					<!-- footer follow -->
+					<ul class="footer-follow">
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-github"></i></a></li>
+						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+					</ul>
+					<!-- /footer follow -->
+
+					<!-- footer copyright -->
+					<div class="footer-copyright">
+						<p>Designed by Geneos Cooperative</p>
+					</div>
+					<!-- /footer copyright -->
+
+				</div>
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</footer>
+	<!-- /Footer -->
+
+	<!-- Back to top -->
+	<div id="back-to-top"></div>
+	<!-- /Back to top -->
+
+	<!-- Preloader -->
+	<div id="preloader">
+		<div class="preloader">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+	<!-- /Preloader -->
+
+	<!-- jQuery Plugins -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
+</html>
