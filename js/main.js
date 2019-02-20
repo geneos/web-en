@@ -55,6 +55,7 @@
 
 		// Section on color
 		wScroll > 1914 ? $('#back-to-top').addClass('green') : $('#back-to-top').removeClass('green');
+
 	});
 
 	///////////////////////////

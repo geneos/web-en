@@ -488,14 +488,17 @@ section .section-title {
 
 	        		<!-- Team member -->
 		            <div class="member-card col-xs-12 col-sm-6 col-md-3">
-		                <div class="card">
-		                	<img class="img1 img-fluid" src="./img/team/<?php echo $teamMember["id"]?>.jpeg" alt="card image">
-		                	<img class="img2 img-fluid" src="./img/team/<?php echo $teamMember["id"]?>2.jpeg" alt="card image">
-		                    <div class="card-body text-center">
-		                        <h4 class="card-title"><?php echo $teamMember["name"]; ?></h4>
-		                        <p class="card-text"><?php echo $teamMember["desc_short"]; ?></p>
-		                    </div>
-		                </div>
+		            	<a href="#member-<?php echo $teamMember["id"]?>">
+			                <div class="card">
+			                	<img class="img1 img-fluid" src="./img/team/<?php echo $teamMember["id"]?>.jpeg" alt="card image">
+			                	<img class="img2 img-fluid" src="./img/team/<?php echo $teamMember["id"]?>2.jpeg" alt="card image">
+			                	<i class="fa fa-plus"></i>
+			                    <div class="card-body text-center">
+			                        <h4 class="card-title"><?php echo $teamMember["name"]; ?></h4>
+			                        <p class="card-text"><?php echo $teamMember["desc_short"]; ?></p>
+			                    </div>
+			                </div>
+		                </a>
 
 		                <div id="member-<?php echo $teamMember["id"]?>" class="mfp-hide white-popup">
 		                    <h4 class="card-title"><?php echo $teamMember["name"]; ?></h4>
@@ -550,7 +553,7 @@ section .section-title {
     		"name" => "UNAJ University",
     		"type" => "Education",
     		"img" => "unaj-01.png",
-    		"technologies" => ["moodle","nodejs","reactjs"],
+    		"technologies" => ["moodle","nodejs","reactjs","java"],
     		"problem" => "Integrate the Moodle and SIU Guarani platforms.",
     		"solution" => "Development of an interface to synchronize these platforms."
     	],
@@ -561,7 +564,7 @@ section .section-title {
     		"technologies" => ["java","postgresql"],
     		"problem" => "Solve the computerization of production management.",
     		"solution" => "Implementation of Libertya MRP, an module of Libertya ERP for production management."
-    	]
+    	],
     ]
 
     ?>
@@ -572,55 +575,7 @@ section .section-title {
 		<!-- Container -->
 		<div class="container">
 
-			<!-- Row -->
-			<?php /* ?>
-			<div class="row">
-
-				<!-- Section header -->
-				<div class="section-header text-center">
-					<h2 class="title">Success Stories</h2>
-				</div>
-				<!-- /Section header -->
-
-				
-				<!-- About slider -->
-				<div>
-					<div id="about-slider" class="owl-carousel owl-theme">
-						<?php foreach($successHistories as $successHistory) { ?>
-							<div>
-								<div class="blog row">
-									<div class="blog-img col-md-6">
-										<img class="img-responsive" src="./img/<?php echo $successHistory["img"]?>" alt="">
-									</div>
-									<div class="blog-content col-md-6">
-										<h3><?php echo $successHistory["name"]?></h3>
-										<h4><?php echo $successHistory["type"]?></h4>
-										<p><strong>Technologies</strong></p>
-										<ul class="blog-meta">
-											<?php foreach($successHistory["technologies"] as $tech) {?>
-												<li><i class="icon-tec-med icon-<?php echo $tech ?>"></i></li>
-											<?php } ?>
-										</ul>
-										<p>
-											<strong>Problem:</strong> <?php echo $successHistory["problem"]?>
-										</p>
-										<p>
-											<strong>Solution:</strong> <?php echo $successHistory["solution"]?>
-										</p>
-									</div>
-								</div>
-							</div>
-						<?php } ?>
-
-					</div>
-				</div>
-
-			</div>
-			<?php */ ?>
-			<!-- /Row -->
-
-
-							<!-- Row -->
+		<!-- Row -->
 			<div class="row">
 
 				<div class="section-header text-center">
@@ -629,29 +584,52 @@ section .section-title {
 
 				<?php 
 
-				$filters = ['All'];
+				$verticalFilters = ['All'];
+				$techFilters = ['All'];
 
 				foreach($successHistories as $successHistory) { 
-					if ( array_search($successHistory["type"], $filters) === false )
-						$filters[] = $successHistory["type"];
+					if ( array_search($successHistory["type"], $verticalFilters) === false )
+						$verticalFilters[] = $successHistory["type"];
+
+					foreach($successHistory["technologies"] as $tech) { 
+						if ( array_search($tech, $techFilters) === false )
+							$techFilters[] = $tech;
+					}
+					
 				} 
 
 				?>
 
-				
-				
-
 				<div class="about-sliders">
-					<div class="filters">
-						<ul class="about-filters">
-							<?php foreach($filters as $filter) { ?>
-								<li class="js-filter <?php echo $filter?>" data-key="<?php echo $filter?>"><?php echo $filter?></li>
-							<?php } ?>
-						</ul>
+
+					<div class="row">
+						<div class="filters vertical  col-md-offset-1 col-md-5">
+							<ul class="about-filters">
+								<?php foreach($verticalFilters as $filter) { ?>
+									<li class="js-filter <?php echo $filter?>" data-key="<?php echo $filter?>"><?php echo $filter?></li>
+								<?php } ?>
+							</ul>
+						</div>
+						
+						<div class="filters techs col-md-5 clearfix">
+							<ul class="about-filters">
+								<?php foreach($techFilters as $filter) { ?>
+									<li class="js-filter <?php echo $filter?>" data-key="<?php echo $filter?>"><?php echo $filter?></li>
+								<?php } ?>
+							</ul>
+						</div>
 					</div>
+
 					<div id="about-slider-for" class="filtering">
 						<?php foreach($successHistories as $successHistory) { ?>
-							<div data-key="<?php echo $successHistory["type"]?>">
+
+							<?php
+							$techs = "";
+							foreach($successHistory["technologies"] as $tech) {
+								$techs .= " ".$tech;
+							} ?>
+
+							<div data-key="<?php echo $successHistory["type"].$techs?>">
 								<div class="blog row">
 									<div class="col-md-12">
 										<h2><?php echo $successHistory["name"]?></h3>
@@ -680,7 +658,7 @@ section .section-title {
 					</div>
 					<div id="about-slider" class="filtering">
 						<?php foreach($successHistories as $successHistory) { ?>
-							<div data-key="<?php echo $successHistory["type"]?>">
+							<div data-key="<?php echo $successHistory["type"].$techs?>">
 								<img width="300px" class="<?php echo $platform["size"] ?>" width="" src="./img/<?php echo $successHistory["img"]?>" alt="">
 							</div>
 						<?php } ?>

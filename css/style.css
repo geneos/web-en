@@ -2076,7 +2076,7 @@ header {
 }
 
 #platform-slider .slick-dots li button:before{
-    background-color: #0a236b;
+    background-color: #000;
     border-radius: 16px;
 }
 
@@ -2127,11 +2127,11 @@ header {
 #team .card:before{
     display: block;
     width: 222px;
-    height: 240px;
+    height: 222px;
     background-color: transparent;
-    border: 150px solid #0a236b;
-    left: -141px;
-    top: -142px;
+    border: 165px solid #0a236b;
+    left: -155px;
+    top: -155px;
     box-sizing: content-box;
     border-radius: 50%;
     content: '';
@@ -2141,18 +2141,16 @@ header {
 #team .card:after{
     display: block;
     width: 222px;
-    height: 240px;
+    height: 222px;
     background-color: transparent;
     border: 1px solid white;
-    left: -141px;
-    top: -142px;
     box-sizing: content-box;
     border-radius: 50%;
     content: '';
     position: absolute;
     left: 8px;
     top: 7px;
-    transform:scale(2.5);
+    transform:scale(2.8);
 }
 
 #team .card .img1 {
@@ -2176,6 +2174,34 @@ header {
     height: 100%;
 }
 
+#team .card .fa-plus {
+    background: white;
+    color: blue;
+    position: absolute;
+    padding: 14px 16px;
+    width: 44px;
+    height:44px;
+    top: 190px;
+    left: 10px;
+    z-index: 10;
+    border-radius: 50%;   
+    transition: 2s;
+    -webkit-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);  
+}
+
+#team .card:hover .fa-plus{
+    
+    -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+
+/************** SERVICE *******************/
+}
+
 #team .card:hover .img2{
     visibility: initial;
 }
@@ -2190,7 +2216,7 @@ header {
 }
 
 #team .card:hover:after{
-    transition:0.2s;
+    transition:0.5s;
     transform:scale(1);
 }
 
@@ -2208,16 +2234,18 @@ header {
     text-align: center;
 }
 
-.about-sliders .filters {
-    height: 50px;
-}
-
-
 .about-filters li{
-    float:left;
+    float:right;
     background-color:rgb(71,149,68,.7);
     padding: 5px 10px;
     margin-right: 10px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+.techs .about-filters li{
+    float:left;
+    background-color:rgba(10,35,107,.7);
 }
 
 .about-filters li:hover{
@@ -2225,8 +2253,16 @@ header {
     background-color:rgb(71,149,68,1);
 }
 
+.techs .about-filters li:hover{
+    background-color:rgba(10,35,107,1);
+}
+
 .about-filters li.active{
     background-color:rgb(71,149,68,1);
+}
+
+.techs .about-filters li.active{
+    background-color:rgba(10,35,107,1);
 }
 
 
