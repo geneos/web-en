@@ -101,7 +101,7 @@ section .section-title {
 	<header id="home">
 		<!-- Background Image -->
 		<div class="bg-img" style="background-image: url('./img/news/fondo.png');">
-			<div class="overlay"></div>
+			<!--div class="overlay"></div-->
 		</div>
 		<!-- /Background Image -->
 
