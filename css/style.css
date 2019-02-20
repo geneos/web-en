@@ -2090,37 +2090,13 @@ header {
     background-color:white;
 }
 
-#team .card .img-fluid {
-    width: 100%;
-    height: auto;
-    border-radius: 50%;
-}
-
 #team .card {
     position:relative;
-    margin: 10px 20px;
     padding: 0px;
 }
 
 #team .card:hover {
     cursor:pointer;
-}
-
-#team .card .card-body {
-    position:absolute;
-    padding-top: 100px;
-    opacity:0;
-    top:0;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background-color: rgba(71,149,68,.7);
-    -webkit-transition: 1s; /* Safari */
-    transition: 1s;
-}
-
-#team .card:hover .card-body{
-    opacity:1;
 }
 
 .white-popup {
@@ -2141,16 +2117,14 @@ header {
     margin-bottom:40px;
 }
 
-
-
-
-#team.alt .card{
+#team .card{
+    position:relative;
     overflow: hidden;
-    border:1px solid;
     margin: 10px 10px;
+    padding:0px;
 }
 
-#team.alt .card:before{
+#team .card:before{
     display: block;
     width: 222px;
     height: 240px;
@@ -2164,23 +2138,42 @@ header {
     position: absolute;
 }
 
+#team .card:after{
+    display: block;
+    width: 222px;
+    height: 240px;
+    background-color: transparent;
+    border: 1px solid white;
+    left: -141px;
+    top: -142px;
+    box-sizing: content-box;
+    border-radius: 50%;
+    content: '';
+    position: absolute;
+    left: 8px;
+    top: 7px;
+    transform:scale(2.5);
+}
+
 #team .card .img1 {
-    border-radius: 0px;
+    max-width: 100%;
 }
 
 #team .card .img2 {
     visibility: hidden;
     position:absolute;
     top:0;
-    border-radius: 0px;
+    max-width: 100%;
 }
 
-#team.alt .card .card-body{
-    opacity:1;
+#team .card .card-body{
     color:white;
-    padding-top: 250px;
+    padding-top: 270px;
     background-color:transparent;
-    border-radius: 0px;
+    position:absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
 }
 
 #team .card:hover .img2{
@@ -2191,9 +2184,14 @@ header {
     visibility: hidden;
 }
 
-#team.alt .card:hover .card-body{
-    background-color: rgba(71,149,68,.4);
+#team .card:hover .card-body{
+    background-color: rgba(10,35,107,.6);
     transition:0.5s;
+}
+
+#team .card:hover:after{
+    transition:0.2s;
+    transform:scale(1);
 }
 
 
