@@ -1077,7 +1077,7 @@ header {
 }
 
 #team {
-    background: #0a236b !important;
+    background-color: #0a236b !important;
 }
 
 .team::after {
@@ -1652,7 +1652,7 @@ header {
 
 #footer {
     position: relative;
-    background-color: #0a236b;
+    background-color: #1E1E1E;
 }
 
 #footer h5 {
@@ -1977,6 +1977,16 @@ header {
 
 /*** CUSTOM CSS ****/
 
+body > .section {
+    background-image: url("../img/sombra_geneos-01.png") !important;
+    background-position: top center !important;
+    background-repeat: no-repeat !important;
+}
+
+body > .section:first {
+    background: none;
+}
+
 
 /**************** ABOUT ********************/
 .about img.about-img{
@@ -1996,6 +2006,13 @@ header {
 } 
 
 /************** SERVICE *******************/
+
+#service > .container {
+    background-image: url("../img/background-01.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
 .service{
     transition: 1s;
     -webkit-transition: 1s;
@@ -2104,13 +2121,48 @@ header {
   background: #FFF;
   padding: 20px;
   width: auto;
-  max-width: 500px;
+  max-width: 600px;
   margin: 20px auto;
-  color:#479544;
+  color:#1E1E1E;
+  padding:0px;
+}
+
+.white-popup .mfp-close {
+    background: #0a236b;;
+    opacity: 1;
+    color: white;
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    top: -22px;
+    right: -22px;
+    z-index: 7;
+    font-weight: bold;
+    border-radius: 50%;
+    transition: 1s;
+    -webkit-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
+}
+
+.white-popup .mfp-close:hover{
+    transform: scale(1.2);
+}
+
+.white-popup .col-md-6{
+  padding:0px;
+}
+
+.white-popup .col-md-6:nth-child(2){
+  padding:20px;
 }
 
 .white-popup .social-icon{
     color: #0a236b;
+}
+
+.white-popup h2 {
+    font-size: 30px;
 }
 
 #team .member-card{
@@ -2176,7 +2228,7 @@ header {
 
 #team .card .fa-plus {
     background: white;
-    color: blue;
+    color: #0a236b;
     position: absolute;
     padding: 14px 16px;
     width: 44px;
@@ -2198,9 +2250,14 @@ box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
   -o-transform: rotate(360deg);
   -ms-transform: rotate(360deg);
   transform: rotate(360deg);
+}
+
+.white-popup .main-image {
+    max-width: 100%;
+}
 
 /************** SERVICE *******************/
-}
+
 
 #team .card:hover .img2{
     visibility: initial;

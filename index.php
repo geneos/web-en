@@ -232,10 +232,10 @@ section .section-title {
 
 
 	<!-- Service -->
-	<div id="service" class="section md-padding">
+	<div id="service" class="section">
 
 		<!-- Container -->
-		<div class="container">
+		<div class="container  md-padding">
 
 			<!-- Row -->
 			<div class="row">
@@ -414,19 +414,19 @@ section .section-title {
 
 	$teamMembers = [
 		[
-			"name" => "Pablo Velazquez",
+			"name" => "Pablo Velázquez",
 			"desc_short" => "The Magic!",
 			"desc_long" => "This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.",
 			"id" => "pablo"
 		],
 		[
-			"name" => "Ibrian Gomez",
+			"name" => "Ibrian Gómez",
 			"desc_short" => "The Magic!",
 			"desc_long" => "This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.",
 			"id" => "ibrian"
 		],
 		[
-			"name" => "Jose Fantasia",
+			"name" => "José Fantasia",
 			"desc_short" => "The Magic!",
 			"desc_long" => "This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.",
 			"id" => "jose"
@@ -437,29 +437,30 @@ section .section-title {
 			"desc_long" => "This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.",
 			"id" => "mario"
 		],
+		/*** DUMMY ****/
 		[
-			"name" => "Cesar Tynik",
-			"desc_short" => "The Magic!",
-			"desc_long" => "This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.",
-			"id" => "cesar"
-		],
-		[
-			"name" => "Pablo Velazquez",
+			"name" => "Pablo Velázquez",
 			"desc_short" => "The Magic!",
 			"desc_long" => "This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.",
 			"id" => "pablo"
 		],
 		[
-			"name" => "Pablo Velazquez",
+			"name" => "Ibrian Gómez",
 			"desc_short" => "The Magic!",
 			"desc_long" => "This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.",
-			"id" => "pablo"
+			"id" => "ibrian"
 		],
 		[
-			"name" => "Pablo Velazquez",
+			"name" => "José Fantasia",
 			"desc_short" => "The Magic!",
 			"desc_long" => "This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.",
-			"id" => "pablo"
+			"id" => "jose"
+		],
+		[
+			"name" => "Mario Ferreyra",
+			"desc_short" => "The Magic!",
+			"desc_long" => "This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.",
+			"id" => "mario"
 		]
 
 	];
@@ -501,30 +502,41 @@ section .section-title {
 		                </a>
 
 		                <div id="member-<?php echo $teamMember["id"]?>" class="mfp-hide white-popup">
-		                    <h4 class="card-title"><?php echo $teamMember["name"]; ?></h4>
-		                    <p class="card-text"><?php echo $teamMember["desc_long"]; ?></p>
-		                    <ul class="list-inline">
-		                        <li class="list-inline-item">
-		                            <a class="social-icon text-xs-center" target="_blank" href="#">
-		                                <i class="fa fa-facebook"></i>
-		                            </a>
-		                        </li>
-		                        <li class="list-inline-item">
-		                            <a class="social-icon text-xs-center" target="_blank" href="#">
-		                                <i class="fa fa-twitter"></i>
-		                            </a>
-		                        </li>
-		                        <li class="list-inline-item">
-		                            <a class="social-icon text-xs-center" target="_blank" href="#">
-		                                <i class="fa fa-skype"></i>
-		                            </a>
-		                        </li>
-		                        <li class="list-inline-item">
-		                            <a class="social-icon text-xs-center" target="_blank" href="#">
-		                                <i class="fa fa-google"></i>
-		                            </a>
-		                        </li>
-		                    </ul>
+		                	<div class="row">
+		                		<div class="col-md-6">
+		                			<img class="img-fluid main-image" src="./img/team/<?php echo $teamMember["id"]?>.jpeg" alt="card image">
+		                		</div>
+		                		<div class="col-md-6">
+		                			<h2 class="card-title"><?php echo $teamMember["name"]; ?></h4>
+		                			<h4 class="card-text"><?php echo $teamMember["desc_short"]; ?></h4>
+		                			<hr/>
+				                    <p class="card-text"><?php echo $teamMember["desc_long"]; ?></p>
+				                    <!-- Redes sociales -->
+				                    <!--ul class="list-inline">
+				                        <li class="list-inline-item">
+				                            <a class="social-icon text-xs-center" target="_blank" href="#">
+				                                <i class="fa fa-facebook"></i>
+				                            </a>
+				                        </li>
+				                        <li class="list-inline-item">
+				                            <a class="social-icon text-xs-center" target="_blank" href="#">
+				                                <i class="fa fa-twitter"></i>
+				                            </a>
+				                        </li>
+				                        <li class="list-inline-item">
+				                            <a class="social-icon text-xs-center" target="_blank" href="#">
+				                                <i class="fa fa-skype"></i>
+				                            </a>
+				                        </li>
+				                        <li class="list-inline-item">
+				                            <a class="social-icon text-xs-center" target="_blank" href="#">
+				                                <i class="fa fa-google"></i>
+				                            </a>
+				                        </li>
+				                    </ul-->
+		                			
+		                		</div>
+		                	</div>
 		                </div>
 
 		            </div>
@@ -541,6 +553,31 @@ section .section-title {
     <?php
 
     $successHistories = [
+    	[
+    		"name" => "PANALAB Laboratories",
+    		"type" => "Industry",
+    		"img" => "panalab-02.png",
+    		"technologies" => ["java","postgresql"],
+    		"problem" => "Solve the computerization of production management and integrate production with administrative management.",
+    		"solution" => "Implementation of Compiere ERP and the Líbero MRP module for production management."
+    	],
+    	[
+    		"name" => "UNAJ University",
+    		"type" => "Education",
+    		"img" => "unaj-01.png",
+    		"technologies" => ["moodle","nodejs","reactjs","java"],
+    		"problem" => "Integrate the Moodle and SIU Guarani platforms.",
+    		"solution" => "Development of an interface to synchronize these platforms."
+    	],
+    	[
+    		"name" => "Mateo Hermanos S.A.",
+    		"type" => "Industry",
+    		"img" => "mateo-01.png",
+    		"technologies" => ["java","postgresql"],
+    		"problem" => "Solve the computerization of production management.",
+    		"solution" => "Implementation of Libertya MRP, an module of Libertya ERP for production management."
+    	],
+    	/*** DUMMY ****/
     	[
     		"name" => "PANALAB Laboratories",
     		"type" => "Industry",
