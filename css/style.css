@@ -130,6 +130,11 @@ ul, ol {
   margin-right: auto ;
 }
 
+.lg-padding {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
 .md-padding {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -150,9 +155,9 @@ ul, ol {
 /* --  background section  -- */
 
 .bg-grey {
-    background-color: #FAFAFA;
+/*    background-color: #FFF;
     border-top: 1px solid #EEE;
-    border-bottom: 1px solid #EEE;
+    border-bottom: 1px solid #EEE;*/
 }
 
 .bg-dark {
@@ -387,7 +392,11 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
         color: #10161A;
         padding: 15px 0px;
     }
-    #nav.nav-transparent:not(.fixed-nav) .main-nav>li>a {
+
+    .navbar-nav>li {
+      float:none;
+    }
+    #nav.nav-transparent .main-nav>li>a {
         color: #fff;
     }
     .main-nav>li>a:hover, .main-nav>li>a:focus, .main-nav>li.active>a {
@@ -635,7 +644,7 @@ header {
     position: absolute;
     left: 0px;
     right: 0px;
-    top: 60%;
+    top: 70%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -682,7 +691,7 @@ header {
     text-align: center;
     padding: 20px 20px;
     /* border: 2px solid #FFF; */
-    margin: 15px 0px;
+    margin: 30px 0px;
     color: #FFFFFF;
 }
 
@@ -1710,9 +1719,84 @@ header {
 \*------------------------------------*/
 
 
-@media only screen and (max-width: 991px) {}
+@media only screen and (max-width: 991px) {
+
+	.navbar-brand .logo, .navbar-brand .logo-alt {
+		max-height: 55px;
+	}
+
+	.main-nav li {
+	    padding: 0px 9px !important;
+	}
+
+	.main-nav>li>a {
+	    font-size: 14px;
+	}
+
+	#service > .container {
+		background:none !important;
+	}
+
+	#team .card:before {
+	    border: 222px solid #0a236b !important;
+	    left: -180px !important;
+	    top: -210px !important;
+	}
+
+	#team .card:after {
+	    left: 41px !important;
+    	top: 11px !important;
+	    transform: scale(3.2) !important;
+	}
+
+    #team .card:hover:after {
+        transform: scale(1) !important;
+    }
+
+	#team .card .img1,
+	#team .card .img2  {
+	    max-width: 90% !important;
+	    margin: 0 5% !important;
+	}
+
+	#team_members {
+		width: initial !important;
+	}
+
+	#team .card .fa-plus {
+	    left: 45px !important;
+	}
+
+	.about-sliders {
+		width:initial !important;
+	}
+}
 
 @media only screen and (max-width: 767px) {
+
+    .platform-sliders {
+        width: auto !important;
+    }
+
+    #team .card {
+        width: 304px;
+        margin: 10px auto !important;
+    }
+
+    #platform-slider-for h2,
+    #platform-slider-for h4 {
+        text-align:center !important;
+    }
+
+    #platform-slider-for img {
+        float: none !important;
+        margin: 0 auto !important;
+    }
+
+    #platform-slider-for h2 {
+        text-align:center;
+    }
+
   .section-header h2.title {
   		font-size:31.5px;
 	}
@@ -2092,6 +2176,10 @@ body > .section:first {
     margin: 0 50px;
 }
 
+#platform-slider .slick-track{
+    left:-10px;
+}
+
 #platform-slider .slick-dots li button:before{
     background-color: #000;
     border-radius: 16px;
@@ -2163,6 +2251,11 @@ body > .section:first {
 
 .white-popup h2 {
     font-size: 30px;
+}
+
+#team_members {
+	width: 886px;
+	margin: 0 auto;
 }
 
 #team .member-card{
@@ -2524,3 +2617,283 @@ box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
     max-width: 100%;
     height: auto;
 }
+
+
+/************** MAIN HEADER: Services main *******************/
+
+#services-main {
+  background: linear-gradient(90deg, #096B37 50%, #61154A 50%) !important;
+}
+
+#services-main .three-color-background {
+  background-image: url("../img/background.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  height: 815px;
+  border-bottom:9px solid white;
+}
+
+#services-main .icon {
+  width:200px;
+  height:180px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  margin: 0 auto;
+  background-size: 90%;
+  margin-bottom:20px;
+}
+
+#services-main .icon.icon-graphic-design {
+  background-image: url("../img/icons/Icon-desing.png");
+}
+#services-main .icon.icon-web-apps {
+  background-image: url("../img/icons/Icon-web.png");
+}
+#services-main .icon.icon-managment-software {
+  background-image: url("../img/icons/Icon-odoo.png");
+}
+
+#services-main .logo-header {
+  margin:0 auto;
+  display: block;
+  margin-bottom: 33px;
+}
+
+#services-main .service-link .fa{
+  text-align:center;
+  display: block;
+  margin-top:70px;
+  -webkit-transition: 1s all;
+  transition: 1s all;
+}
+
+#services-main .service-link:hover .fa{
+  margin-top:100px;
+}
+
+#services-main h3 {
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  margin: 0;
+  font-weight: 300;
+}
+
+/*** NAVIGATION **/
+
+.navbar-header {
+  float:right;
+}
+.nav-collapse {
+  display:block;
+}
+
+#nav.open .main-nav {
+    -webkit-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%);
+    width: 100%;
+}
+
+.main-nav {
+    position: fixed;
+    right: 0;
+    height: calc(100vh - 80px);
+    -webkit-box-shadow: 0px 80px 0px 0px #1C1D21;
+    box-shadow: 0px 80px 0px 0px #1C1D21;
+    max-width: 250px;
+    width: 0%;
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+    margin: 0;
+    overflow-y: auto;
+    background: #1C1D21;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+}
+
+.nav-collapse span, 
+.nav-collapse span:before, 
+.nav-collapse span:after {
+  background:white;
+  border-radius: 2px;
+}
+
+/* PARA AGRANDAR ICONO DE BARRA 
+.nav-collapse span, 
+.nav-collapse span:before, 
+.nav-collapse span:after {
+  background:white;
+  border-radius: 3px;
+  height:6px;
+}
+
+.nav-collapse span{
+  width:40px;
+}
+
+.nav-collapse span:before {
+  -webkit-transform: translate(0%, 14px);
+  -ms-transform: translate(0%, 14px);
+  transform: translate(0%, 14px);
+}
+
+.nav-collapse span:after {
+  -webkit-transform: translate(0%, -18px);
+  -ms-transform: translate(0%, -18px);
+  transform: translate(0%, -18px);
+}
+
+#nav.open .nav-collapse span:after {
+  -webkit-transform: translateY(-6px) rotate(135deg);
+  -ms-transform: translateY(-6px) rotate(135deg);
+  transform: translateY(-6px) rotate(135deg);
+}*/
+
+#nav.fixed-nav {
+  background-color: transparent !important; 
+  border-bottom: none;
+}
+
+#nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  padding: 10px 0px;
+}
+
+@media only screen and (max-width: 767px) {
+  #nav.nav-transparent {
+      background: transparent !important;
+  }
+}
+
+/* WHO WE ARE */
+
+.geneos-quotes {
+  background-image: url("../img/comillas.png");
+  width: 1048px;
+  padding: 88px 0 67px 0;
+  line-height: 65px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.technology-based {
+  margin-top:-50px;
+}
+
+.technology-based h2{
+  color: #000;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 60px;
+  text-align: right;
+  margin-top: 110px;
+}
+
+/* ABOUT US */
+
+#about-us-slider-for {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+#about-us-slider {
+  margin-bottom:0px;
+  padding: 0px 7px;
+}
+
+#about-us-slider .slick-list{
+  padding: 0!important;
+  margin:0px;
+  background-color:#479544;
+}
+
+#about-us-slider .slick-dots li button:before{
+  background-color:transparent;
+  border-radius: 16px;
+  border: 1px solid white;
+  color:transparent;
+  opacity: 1;
+}
+
+#about-us-slider .slick-dots li.slick-active button:before {
+  opacity: 1;
+  background-color: white;
+  color:white;
+}
+
+#about-us-slider .slick-dots {
+  bottom: 25px;
+  left:0;
+}
+
+#about-us-slider img {
+  display:inline-block;
+}
+
+#about-us-slider-for img {
+  width:100%;
+}
+
+
+/* GENERAL */
+
+/* CAMBIAR CONTAINER EN DISTINTOS WIDHT (Mobile, Tablet, Desktop, Desktop LG)
+/* CAMBIAR PADDINGS (MD- LG- SM-) EN DISTINTOS WIDHT (Mobile, Tablet, Desktop, Desktop LG)
+*/
+.container {
+  width:1135px;
+} 
+
+.blue-text {
+  color:#274A9A;
+}
+
+/*.geneos-quotes:after,
+.geneos-quotes:before {
+  display:block;
+  width:50px;
+  height:50px;
+}*/
+
+.geneos-separator {
+  background-image: url("../img/lineas.png");
+  width:100%;
+  height:9px;
+  background-position: top center;
+  background-repeat:no-repeat;
+  position:relative;
+}
+
+.geneos-separator.reverse {
+  background-image: url("../img/lineas_rev.png");
+  background-position: bottom center;
+}
+
+.geneos-separator:after {
+  display:block;
+  content:'';
+  position:absolute;
+  z-index:-1;
+  background: linear-gradient(90deg, #096B37 50%, #61154A 50%) !important;
+  width:100%;
+  height:9px
+}
+
+.geneos-separator.reverse:after {
+  background: linear-gradient(90deg,#61154A  50%, #096B37 50%) !important;
+}
+
+
+

@@ -160,6 +160,40 @@
 		arrows: false,
 		centerMode: true,
 		autoplay:true,
+		responsive: [
+            {
+              breakpoint: 991,
+              settings: {
+                slidesToShow: 4,
+              }
+            },
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 3,
+              }
+            },
+        ]
+  });
+  
+  // About us
+  $('#about-us-slider-for').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows: false,
+		fade: true,
+		asNavFor: '#about-us-slider'
+	});
+	$('#about-us-slider').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		asNavFor: '#about-us-slider-for',
+		dots: true,
+		centerMode: true,
+		focusOnSelect: true,
+		arrows: false,
+		centerMode: true,
+		autoplay:true,
 	});
 
 })(jQuery);

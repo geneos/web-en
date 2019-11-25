@@ -97,223 +97,167 @@ section .section-title {
 </head>
 
 <body>
-	<!-- Header -->
-	<header id="home">
-		<!-- Background Image -->
-		<div class="bg-img" style="background-image: url('./img/news/fondo.png');">
-			<!--div class="overlay"></div-->
-		</div>
-		<!-- /Background Image -->
 
-		<!-- Nav -->
-		<nav id="nav" class="navbar nav-transparent">
-			<div class="container">
+  <!-- Nav -->
+<div class="container" >
+  <nav id="nav" class="navbar nav-transparent">
+    <div class="container">
 
-				<div class="navbar-header">
-					<!-- Logo -->
-					<div class="navbar-brand">
-						<a href="index.html">
-							<img class="logo" src="img/logo.png" alt="logo">
-							<img class="logo-alt" src="img/logo-alt.png" alt="logo">
-						</a>
-					</div>
-					<!-- /Logo -->
+      <div class="navbar-header">
 
-					<!-- Collapse nav button -->
-					<div class="nav-collapse">
-						<span></span>
-					</div>
-					<!-- /Collapse nav button -->
-				</div>
+        <!-- Collapse nav button -->
+        <div class="nav-collapse">
+          <span></span>
+        </div>
+        <!-- /Collapse nav button -->
+      </div>
 
-				<!--  Main navigation  -->
-				<ul class="main-nav nav navbar-nav navbar-right">
-					<!-- <li><a href="#home">Home</a></li> -->
-					<li><a id="xxx" href="#about">Who we are?</a></li>
-					<li><a href="#service">Why choose us?</a></li>
-					<li><a href="#testimonial">Technologies</a></li>
-					<li><a href="#team">Team</a></li>
-					<li><a href="#blog">Success Stories</a></li>
-					<li><a href="#footer">Contact</a></li>
-				</ul>
-				<!-- /Main navigation -->
+      <!--  Main navigation  -->
+      <ul class="main-nav nav navbar-nav navbar-right">
+        <!-- <li><a href="#home">Home</a></li> -->
+        <li><a id="xxx" href="#who-we-are">Who we are?</a></li>
+        <li><a href="#about">Why choose us?</a></li>
+        <li><a href="#testimonial">Technologies</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#blog">Success Stories</a></li>
+        <li><a href="#footer">Contact</a></li>
+      </ul>
+      <!-- /Main navigation -->
 
-			</div>
-		</nav>
-		<!-- /Nav -->
+    </div>
+  </nav>
+  <!-- /Nav -->
+</div>
 
-		<!-- home wrapper -->
-		<div class="home-wrapper">
-			<div class="container">
-				<div class="row">
+<!-- Service-main -->
+<div id="services-main" class="section">
 
-					<!-- home content -->
-					<div class="col-md-10 col-md-offset-1">
-						<div class="home-content">
-							<h2 class="white-text">Equality unites us,<br/>
-							the cooperative strengthens us</h2>
-							<div style="padding-top: 70px;">
-							<a onclick="goInitAbout()"><i class="fa fa-arrow-circle-down white-text" style="font-size: 50pt;"></i></a>
-							</div>
-						</div>
-					</div>
-					<!-- /home content -->
+  <div class="three-color-background" >
 
-				</div>
-			</div>
-		</div>
-		<!-- /home wrapper -->
+    <img class="logo-header sm-padding" src="img/icons/logo_geneos.png" alt="logo">
 
-	</header>
-	<!-- /Header -->
+    <!-- Container -->
+    <div class="container md-padding">
 
-	<!-- About -->
-	<div id="about" class="section md-padding" style="background-color: #0a236b;">
+      <div class="col-md-4">
+        <!-- Graphic design -->
+        <a href="#" target="_blank" class="service-link">
+          <div class="icon icon-graphic-design" ></div>
+          <h3> GRAPHIC DESIGN </h3>
+          <i class="fa fa-angle-down white-text" style="font-size: 50pt;"></i>
+        </a>
+      </div> 
 
-		<!-- Container -->
-		<div class="container">
+      <div class="col-md-4">
+        <!-- Web Apps -->
+        <a href="#" target="_blank" class="service-link">
+          <div class="icon icon-web-apps" ></div>
+          <h3> WEP APPS </h3>
+          <h3> PLATFORM ELEARNING </h3>
+          <i class="fa fa-angle-down white-text" style="font-size: 50pt;"></i>
+        </a>
+      </div>
 
-			<!-- Row -->
-			<div class="row">
-
-				<!-- Section header -->
-				<div class="section-header-about text-center">
-					<h2 class="title-about">Who we are?</h2>
-					<div class="section-desc-center">
-						<!-- <h4>We are a technology-based Cooperative organization specialized in the development of web and stand alone applications under free software.
-					</h4> -->
-					</div>					
-				</div>
-				<!-- /Section header -->
-
-				<!-- about -->
-				<div class="col-md-4">
-					<div class="about">
-						<img class="about-img" src="img/news/about_icon.svg" alt="About Us">
-						<h3>Abous Us</h3>
-						<p>Founded in 2013 by systems engineers, programmers and design professionals that allow us to work in an integral way in the search of solutions for our clients to help improve their overall business results and gain more from their technology investments.</p>
-					</div>
-				</div>
-				<!-- /about -->
-
-				<!-- about -->
-				<div class="col-md-4">
-					<div class="about contenedor">
-						<!-- <i class="fa fa-cubes"></i> -->
-						<img class="about-img" src="img/news/work_icon.svg" alt="About Us">
-						<h3>About our Work</h3>
-						<p>We work with Agile methodologies for each project involving the customer in the whole cycle and our processes are designed to make our team more efficient, more focused, and more consistent.</p>
-						<br>
-					</div>
-				</div>
-				<!-- /about -->
-
-				<!-- about -->
-				<div class="col-md-4">
-					<div class="about contenedor">
-						<!-- <i class="fa fa-indent"></i> -->
-						<img class="about-img" src="img/news/filosofia_icon.svg" alt="About Us">
-						<h3>Our philosophy</h3>
-						<p>The more efficient we are the faster we get results; the more focus we have the better the code; and the more consistent we become the more predictable our output and accurate our planning.</p>
-						<br>
-						<br>
-					</div>
-				</div>
-				<!-- /about -->
-
-			</div>
-			<!-- /Row -->
-
-		</div>
-		<!-- /Container -->
-
-	</div>
-	<!-- /About -->
+      <div class="col-md-4">
+        <!-- Managment Software -->
+        <a href="#" target="_blank" class="service-link">
+          <div class="icon icon-managment-software" ></div>
+          <h3> MANAGMENT SOFTWARE </h3>
+          <i class="fa fa-angle-down white-text" style="font-size: 50pt;"></i>
+        </a>
+      </div>
 
 
-	<!-- Service -->
-	<div id="service" class="section">
+    </div>
+    <!-- /Container -->
+  </div>
+</div>
 
-		<!-- Container -->
-		<div class="container  md-padding">
+<div class="geneos-separator"></div>
 
-			<!-- Row -->
-			<div class="row">
+<div id="who-we-are" class="section">
+  <div class="container md-padding">
+    <div class="row">
+      <h2 class="blue-text geneos-quotes">
+        Equality unites us<br/>
+        The cooperative strengthens us
+      </h2>
+      <div class="technology-based">
+        <div class="col-md-6">
+          <img src="img/computadora.png">
+        </div>
+        <div class="col-md-6">
+          <h2>
+            we are technology-based <br/>
+            cooperative organization <br/>
+            specialized in free software
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+</div>
 
-				<!-- Section header -->
-				<div class="section-header-services text-center">
-					<h2 class="title">Our services</h2>
-				</div>
-				<!-- /Section header -->
+<div class="geneos-separator reverse"></div>
 
-				<!-- service -->
-				<div class="col-md-4 col-sm-6">
-					<div class="service">
-						<i class="icon-services icon-plataform"></i>
-						<h3>Free Software</h3>
-						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-					</div>
-				</div>
-				<!-- /service -->
+<!-- About -->
+<div id="about" class="section">
 
-				<!-- service -->
-				<div class="col-md-4 col-sm-6">
-					<div class="service">
-						<i class="icon-services icon-web"></i>
-						<h3>Web & Mobile</h3>
-						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-					</div>
-				</div>
-				<!-- /service -->
+  <!-- Container -->
+  <div class="container">
 
-				<!-- service -->
-				<div class="col-md-4 col-sm-6">
-					<div class="service">
-						<i class="icon-services icon-team"></i>
-						<h3>Staff Augmentation</h3>
-						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-					</div>
-				</div>
-				<!-- /service -->
+    <!-- Row -->
+    <div class="row">
 
-				<!-- service -->
-				<div class="col-md-4 col-sm-6">
-					<div class="service">
-						<i class="icon-services icon-infraestructure"></i>
-						<h3>Servers Services</h3>
-						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-					</div>
-				</div>
-				<!-- /service -->
+      <div class="about-us-sliders">
+        <div id="about-us-slider-for">
+          <div>
+            <img src="img/news/fondo.png" alt="">
+          </div>
+          <div>
+            <img src="img/news/fondo.png" alt="">
+          </div>
+          <div>
+            <img src="img/news/fondo.png" alt="">
+          </div>
+        </div>
+        <!-- about -->
+        <div id="about-us-slider" class="col-md-offset-8 col-md-4">
+          <div class="about">
+            <img class="about-img" src="img/news/about_icon.svg" alt="About Us">
+            <h3>Abous Us</h3>
+            <p>Founded in 2013 by systems engineers, programmers and design professionals that allow us to work in an integral way in the search of solutions for our clients to help improve their overall business results and gain more from their technology investments.</p>
+          </div>
+          <div class="about contenedor">
+            <!-- <i class="fa fa-cubes"></i> -->
+            <img class="about-img" src="img/news/work_icon.svg" alt="About Us">
+            <h3>About our Work</h3>
+            <p>We work with Agile methodologies for each project involving the customer in the whole cycle and our processes are designed to make our team more efficient, more focused, and more consistent.</p>
+            <br>
+          </div>
+          <div class="about contenedor">
+            <!-- <i class="fa fa-indent"></i> -->
+            <img class="about-img" src="img/news/filosofia_icon.svg" alt="About Us">
+            <h3>Our philosophy</h3>
+            <p>The more efficient we are the faster we get results; the more focus we have the better the code; and the more consistent we become the more predictable our output and accurate our planning.</p>
+            <br>
+            <br>
+          </div>
+        </div>
+        <!-- /about -->
+      </div>
 
-				<!-- service -->
-				<div class="col-md-4 col-sm-6">
-					<div class="service">
-						<i class="icon-services icon-design"></i>
-						<h3>Graphic Design</h3>
-						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-					</div>
-				</div>
-				<!-- /service -->
+    </div>
+    <!-- /Row -->
 
-				<!-- service -->
-				<div class="col-md-4 col-sm-6">
-					<div class="service">
-						<i class="icon-services icon-app"></i>
-						<h3>App Development</h3>
-						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-					</div>
-				</div>
-				<!-- /service -->
+  </div>
+  <!-- /Container -->
 
-			</div>
-			<!-- /Row -->
+</div>
+<!-- /About -->
 
-		</div>
-		<!-- /Container -->
-
-	</div>
-	<!-- /Service -->
+<div class="geneos-separator"></div>
 
 	<?php
 	$platforms = [
@@ -414,54 +358,61 @@ section .section-title {
 
 	$teamMembers = [
 		[
-			"name" => "Pablo Velázquez",
-			"desc_short" => "The Magic!",
-			"desc_long" => "This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.",
-			"id" => "pablo"
-		],
-		[
 			"name" => "Ibrian Gómez",
-			"desc_short" => "The Magic!",
+			"desc_short" => "Software Developer / Web Front-end and Back-end Developer",
 			"desc_long" => "This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.",
 			"id" => "ibrian"
 		],
 		[
-			"name" => "José Fantasia",
-			"desc_short" => "The Magic!",
+			"name" => "Clara Sorensen",
+			"desc_short" => "Graphic Designer / UX Designer",
 			"desc_long" => "This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.",
-			"id" => "jose"
+			"id" => "cla"
+		],
+		[
+			"name" => "Bruno Tubino",
+			"desc_short" => "Software Developer / Web Front-end and Back-end Developer",
+			"desc_long" => "This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.",
+			"id" => "bruno"
+		],
+		[
+			"name" => "Santiago Costa",
+			"desc_short" => "Software Developer / Web Back-end Developer",
+			"desc_long" => "This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.",
+			"id" => "santi"
 		],
 		[
 			"name" => "Mario Ferreyra",
-			"desc_short" => "The Magic!",
+			"desc_short" => "Administrative Manager / Software Developer",
 			"desc_long" => "This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.",
 			"id" => "mario"
 		],
-		/*** DUMMY ****/
+		[
+			"name" => "Martín Di Lisio",
+			"desc_short" => "Project Manager / Functional Analyst / Software Developer",
+			"desc_long" => "This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.",
+			"id" => "martin"
+		],
 		[
 			"name" => "Pablo Velázquez",
-			"desc_short" => "The Magic!",
+			"desc_short" => "Technology Manager / Software Developer",
 			"desc_long" => "This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.",
 			"id" => "pablo"
 		],
 		[
-			"name" => "Ibrian Gómez",
-			"desc_short" => "The Magic!",
-			"desc_long" => "This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.",
-			"id" => "ibrian"
-		],
-		[
 			"name" => "José Fantasia",
-			"desc_short" => "The Magic!",
+			"desc_short" => "Sales Manager / Project Manager / Functional Analyst",
 			"desc_long" => "This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.",
 			"id" => "jose"
 		],
 		[
-			"name" => "Mario Ferreyra",
-			"desc_short" => "The Magic!",
+			"name" => "Fernando Recci",
+			"desc_short" => "IT Infrastructure Manager / Software Developer",
 			"desc_long" => "This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.",
-			"id" => "mario"
-		]
+			"id" => "fer"
+		],
+
+
 
 	];
 	?>
@@ -483,12 +434,12 @@ section .section-title {
 			</div>
 
 			
-	        <div class="row">
+	        <div class="row" id="team_members">
 
 	        	<?php foreach($teamMembers as $teamMember) { ?>
 
 	        		<!-- Team member -->
-		            <div class="member-card col-xs-12 col-sm-6 col-md-3">
+		            <div class="member-card col-xs-12 col-sm-6 col-md-4">
 		            	<a href="#member-<?php echo $teamMember["id"]?>">
 			                <div class="card">
 			                	<img class="img1 img-fluid" src="./img/team/<?php echo $teamMember["id"]?>.jpeg" alt="card image">
@@ -558,50 +509,92 @@ section .section-title {
     		"type" => "Industry",
     		"img" => "panalab-02.png",
     		"technologies" => ["java","postgresql"],
-    		"problem" => "Solve the computerization of production management and integrate production with administrative management.",
-    		"solution" => "Implementation of Compiere ERP and the Líbero MRP module for production management."
+    		"problem" => "To find a solution to the production process management automation and production integration with the administrative management.",
+    		"solution" => "Compiere ERP (Enterprise Resource Planning) system implementation and Libero MRP (Material Requirement Planning) module customization for production process management."
+    	],
+		[
+    		"name" => "MATEO Hermanos S.A.",
+    		"type" => "Industry",
+    		"img" => "mateo-01.png",
+    		"technologies" => ["java","postgresql"],
+    		"problem" => "To find a solution to the production process management automation and production integration with the administrative management.",
+    		"solution" => "Libertya MRP (Material Requirement Planning) system implementation and Libertya ERP (Enterprise Resource Planning) module customization for production process management."
+    	],
+		[
+    		"name" => "WM Argentina S.A.",
+    		"type" => "Industry",
+    		"img" => "wm.png",
+    		"technologies" => ["odoo"],
+    		"problem" => "To find a new information system solution to the company processes management.",
+    		"solution" => "Odoo ERP (Enterprise Resource Planning) system implementation and custom modules development."
     	],
     	[
     		"name" => "UNAJ University",
     		"type" => "Education",
     		"img" => "unaj-01.png",
     		"technologies" => ["moodle","nodejs","reactjs","java"],
-    		"problem" => "Integrate the Moodle and SIU Guarani platforms.",
-    		"solution" => "Development of an interface to synchronize these platforms."
+    		"problem" => "Moodle LMS (Learning Management System) and SIU Guarani AMS (Academic Management System) integration. Technical support.",
+    		"solution" => "Interface development to synchronize both platforms. Bring support for system administration."
     	],
-    	[
-    		"name" => "Mateo Hermanos S.A.",
-    		"type" => "Industry",
-    		"img" => "mateo-01.png",
-    		"technologies" => ["java","postgresql"],
-    		"problem" => "Solve the computerization of production management.",
-    		"solution" => "Implementation of Libertya MRP, an module of Libertya ERP for production management."
+		[
+    		"name" => "FLACSO University",
+    		"type" => "Education",
+    		"img" => "flacso.png",
+    		"technologies" => ["moodle","nodejs","reactjs","java"],
+    		"problem" => "Support for Moodle LMS (Learning Management System) use. User experience (UX) improvements and custom requirements on Moodle.",
+    		"solution" => "Bring support for system administration. Web design and development. Custom modules development."
     	],
+		[
+    		"name" => "UNAHUR University",
+    		"type" => "Education",
+    		"img" => "unahur.png",
+    		"technologies" => ["moodle","nodejs","reactjs","java"],
+    		"problem" => "Moodle LMS (Learning Management System) and SIU Guarani AMS (Academic Management System) integration.",
+    		"solution" => "Interface development to synchronize both platforms."
+    	],
+		[
+    		"name" => "CATSPBA",
+    		"type" => "Education",
+    		"img" => "catspba.png",
+    		"technologies" => ["moodle"],
+    		"problem" => "Support for Moodle LMS (Learning Management System) use. User experience (UX) improvements and custom requirements on Moodle.",
+    		"solution" => "Bring support for system administration. Web design and development. Custom modules development."
+    	],
+		[
+    		"name" => "MAR CHIQUITA District",
+    		"type" => "Goverment",
+    		"img" => "marchiquita.png",
+    		"technologies" => ["wordpress"],
+    		"problem" => "To present cultural spaces, places and activities of the district.",
+    		"solution" => "Web design and web site development. Custom modules development."
+    	],
+		[
+    		"name" => "TAPALQUE District",
+    		"type" => "Goverment",
+    		"img" => "tapalque.png",
+    		"technologies" => ["wordpress"],
+    		"problem" => "To present tourism spaces, places and activities of the district.",
+    		"solution" => "Web design and web site development."
+    	],
+		[
+    		"name" => "CINEA UNICEN",
+    		"type" => "Education",
+    		"img" => "cinea.png",
+    		"technologies" => ["drupal"],
+    		"problem" => "To present institutional information, projects and activities of the center.",
+    		"solution" => "Web design and web site development."
+    	],
+		[
+    		"name" => "CIEP UNICEN",
+    		"type" => "Education",
+    		"img" => "ciep.png",
+    		"technologies" => ["drupal"],
+    		"problem" => "To present institutional information, projects and activities of the center.",
+    		"solution" => "Web design and web site development."
+    	],
+    	
     	/*** DUMMY ****/
-    	[
-    		"name" => "PANALAB Laboratories",
-    		"type" => "Industry",
-    		"img" => "panalab-02.png",
-    		"technologies" => ["java","postgresql"],
-    		"problem" => "Solve the computerization of production management and integrate production with administrative management.",
-    		"solution" => "Implementation of Compiere ERP and the Líbero MRP module for production management."
-    	],
-    	[
-    		"name" => "UNAJ University",
-    		"type" => "Education",
-    		"img" => "unaj-01.png",
-    		"technologies" => ["moodle","nodejs","reactjs","java"],
-    		"problem" => "Integrate the Moodle and SIU Guarani platforms.",
-    		"solution" => "Development of an interface to synchronize these platforms."
-    	],
-    	[
-    		"name" => "Mateo Hermanos S.A.",
-    		"type" => "Industry",
-    		"img" => "mateo-01.png",
-    		"technologies" => ["java","postgresql"],
-    		"problem" => "Solve the computerization of production management.",
-    		"solution" => "Implementation of Libertya MRP, an module of Libertya ERP for production management."
-    	],
+    	
     ]
 
     ?>
@@ -639,23 +632,7 @@ section .section-title {
 
 				<div class="about-sliders">
 
-					<div class="row">
-						<div class="filters vertical  col-md-offset-1 col-md-5">
-							<ul class="about-filters">
-								<?php foreach($verticalFilters as $filter) { ?>
-									<li class="js-filter <?php echo $filter?>" data-key="<?php echo $filter?>"><?php echo $filter?></li>
-								<?php } ?>
-							</ul>
-						</div>
-						
-						<div class="filters techs col-md-5 clearfix">
-							<ul class="about-filters">
-								<?php foreach($techFilters as $filter) { ?>
-									<li class="js-filter <?php echo $filter?>" data-key="<?php echo $filter?>"><?php echo $filter?></li>
-								<?php } ?>
-							</ul>
-						</div>
-					</div>
+
 
 					<div id="about-slider-for" class="filtering">
 						<?php foreach($successHistories as $successHistory) { ?>
@@ -672,10 +649,10 @@ section .section-title {
 										<h2><?php echo $successHistory["name"]?></h3>
 										<h4>#<?php echo $successHistory["type"]?></h4>
 									</div>
-									<div class="blog-img col-md-6">
+									<div class="blog-img col-md-6 col-sm-6">
 										<img class="img-responsive" src="./img/<?php echo $successHistory["img"]?>" alt="">
 									</div>
-									<div class="blog-content col-md-6">
+									<div class="blog-content col-md-6 col-sm-6">
 										<p><strong>Technologies</strong></p>
 										<ul class="blog-meta">
 											<?php foreach($successHistory["technologies"] as $tech) {?>
@@ -696,7 +673,6 @@ section .section-title {
 					<div id="about-slider" class="filtering">
 						<?php foreach($successHistories as $successHistory) { ?>
 							<div data-key="<?php echo $successHistory["type"].$techs?>">
-								<img width="300px" class="<?php echo $platform["size"] ?>" width="" src="./img/<?php echo $successHistory["img"]?>" alt="">
 							</div>
 						<?php } ?>
 					</div>
