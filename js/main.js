@@ -194,6 +194,50 @@
 		arrows: false,
 		centerMode: true,
 		autoplay:true,
+  });
+  
+  // About what u need for (DESIGN)
+  //TODO: Add event actions on images top of slider
+	var slickWhatUNeed = $('#about-what-u-need-slider').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		dots: true,
+		centerMode: true,
+		focusOnSelect: true,
+		arrows: false,
+		centerMode: true,
+		autoplay:true,
+  });
+  $('#about-what-u-need-for .col-md-4:nth-child(1) a').click(function() {
+    slickWhatUNeed.slick('slickGoTo', 1);
+  });
+  $('#about-what-u-need-for .col-md-4:nth-child(2) a').click(function() {
+    slickWhatUNeed.slick('slickGoTo', 2);
+  });
+  $('#about-what-u-need-for .col-md-4:nth-child(3) a').click(function() {
+    slickWhatUNeed.slick('slickGoTo', 3);
+  });
+
+  $('#success-history-slider').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		dots: true,
+		centerMode: true,
+		focusOnSelect: true,
+		arrows: false,
+		centerMode: true,
+		autoplay:true,
+  });
+  
+  $('#moodle-success-history-slider').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		dots: true,
+		centerMode: true,
+		focusOnSelect: true,
+		arrows: false,
+		centerMode: true,
+		autoplay:true,
 	});
 
 })(jQuery);
