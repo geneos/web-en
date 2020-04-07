@@ -3,7 +3,7 @@
   <nav id="nav" class="navbar nav-transparent">
     <div class="container">
 
-      <a href="/web-en">
+      <a class="logo" href="/web-en">
         <img class="logo-header" src="img/icons/logo_geneos.png" alt="logo">
       </a>
 

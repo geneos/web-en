@@ -82,13 +82,13 @@
 
 <div id="odoo-ecommerce" class="section">
   <!-- Container -->
-  <div class="container md-padding">
+  <div class="container sm-padding">
     <div class="row">
-    <div class="col-md-6">
+    <div class="col-sm-6">
       <img src="img/platforms/imagen_izq_odoo.png" title="Ecommerce con Odoo" alter="Ecommerce con Odoo"/>
     </div>
 
-    <div class="col-md-6 styled-ul black-text">
+    <div class="col-sm-6 styled-ul black-text">
       <h2  class="violet-text"> CREÁ UN E-COMMERCE DINAMICO Y ADAPTALO A TU MARCA</h2>
       <ul>
         <li >is simply dummy text of the printing and typesetting </li>
@@ -119,10 +119,10 @@
     </div>
 
     <div class="row moodle-promo">
-      <div class="col-md-4 text-center">
+      <div class="col-sm-4 text-center">
         <img src="img/platforms/logo_moodle.png" alt="">
       </div>
-      <div class="col-md-4 text-center">
+      <div class="col-sm-offset-4 text-center">
         <!-- Web Apps -->
         <h4 class="black-text">
           Trabajamos desde la cooperativa para ofrecerle a cada<br/>
@@ -131,7 +131,7 @@
           posicionarse en la mente del consumidor <br/>
         </h4>
       </div>
-      <div class="col-md-4 styled-ul black-text">
+      <div class="col-sm-4 styled-ul black-text">
         <ul>
           <li class="facilita">Lorem Ipsum is not simply random text.</li>
           <li class="flexible">Lorem Ipsum is not simply random text.</li>
@@ -145,13 +145,13 @@
     </div>
 
     <div class="row moodle-info">
-      <div class="col-md-4 text-center">
+      <div class="col-sm-4 text-center notebook">
         <img src="img/platforms/notebook_moodle.png" alt="">
       </div>
-      <div class="col-md-4 text-center">
+      <div class="col-sm-4 text-center grafico">
         <img src="img/platforms/infografia_moodle.png" alt="">
       </div>
-      <div id="moodle-success-history-slider" class="col-md-4 orange">
+      <div id="moodle-success-history-slider" class="col-sm-4 orange">
         <img src="img/platforms/slider_1_moodle.png" alt="">
         <img src="img/platforms/slider_1_moodle.png" alt="">
         <img src="img/platforms/slider_1_moodle.png" alt="">

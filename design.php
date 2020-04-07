@@ -41,10 +41,10 @@
     <div class="row geneos-quotes-design">
       
       <h2 class="black-text ">
-        <span class="weight-normal pull-right">You never...</span><br/>
+        <span class="weight-normal-1 pull-right">You never...</span><br/>
         get a second chance <br/>
         to make a first impression<br/>
-        <span class="weight-normal pull-right">Oscar Wilde / Will Rogers</span>
+        <span class="weight-normal-2 pull-right">Oscar Wilde / Will Rogers</span>
       </h2>
       
     </div>
@@ -126,9 +126,7 @@
             <p>Nos proponemos a partir de un concepto cocreado con ustedes, junto a la cultura e identidad corporativa que posean o desean generar una imagen de marca desde cero, con todos los elementos y aplicaciones graficas y multimediales que requieran </p>
           </div>
         </div>
-        <div class="col-md-8">
-          <img src="img/design/imagen_slider_Marca.png" alt="">
-        </div>
+        
       </div>
     </div>
     <!-- Container -->

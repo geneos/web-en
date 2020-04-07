@@ -240,4 +240,15 @@
 		autoplay:true,
 	});
 
+	$('#team-slider').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		dots: true,
+		centerMode: true,
+		focusOnSelect: true,
+		arrows: true,
+		centerMode: true,
+		autoplay:false,
+	});
+
 })(jQuery);

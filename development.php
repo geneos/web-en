@@ -74,15 +74,15 @@
             continuidad en el diseño de su identidad marcaria, para <br/>
             posicionarse en la mente del consumidor <br/>
           </h4>
-          <div class="col-md-4 text-center">
+          <div class="col-xs-4 text-center">
             <img src="img/development/icon_react_native.png" alt="">
             <h4 class="blue-text"> React Native </h3>
           </div>
-          <div class="col-md-4 text-center">
+          <div class="col-xs-4 text-center">
             <img src="img/development/icon_ionic.png" alt="">
             <h4 class="blue-text" > Ionic </h3>
           </div>
-          <div class="col-md-4 text-center">
+          <div class="col-xs-4 text-center">
             <img src="img/development/icon_firebase.png" alt="">
             <h4 class="blue-text" > Firebase </h3>
           </div>
@@ -111,7 +111,7 @@
         <h2 class="font-caveat white-text">Ventajas</h2>
       </div>
 
-      <div class="col-md-4 styled-ul">
+      <div class="col-xs-offset-4 styled-ul">
         <ul>
           <li class="geolocalizacion">is simply dummy text</li>
           <li class="formacion">is simply dummy text</li>
@@ -156,7 +156,7 @@
             continuidad en el diseño de su identidad marcaria, para <br/>
             posicionarse en la mente del consumidor <br/>
           </h4>
-          <ul class="black-text">
+          <ul class="col-xs-offset-4 black-text">
             <li>Desarrollo web Angular</li>
             <li>Desarrollador web Node</li>
             <li>Lider tecnico</li>

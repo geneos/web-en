@@ -20,7 +20,7 @@
         </a>
       </div> 
 
-      <div class="col-md-4">
+      <div class="col-md-4 second">
         <!-- Web Apps -->
         <a href="development.php" target="_blank" class="service-link">
           <div class="icon icon-web-apps" ></div>
@@ -30,9 +30,9 @@
         </a>
       </div>
 
-      <div class="col-md-4">
+      <div class="col-md-4 ">
         <!-- Managment Software -->
-        <a href="platforms.php" target="_blank" class="service-link">
+        <a href="platforms.php" target="_blank" class="service-link ">
           <div class="icon icon-managment-software" ></div>
           <h3> MANAGMENT SOFTWARE </h3>
           <h3> PLATFORM ELEARNING </h3>
@@ -295,9 +295,24 @@
 
     <!-- Team -->
 	<div id="team" class="section md-padding">
+		<div class="section-header text-center">
+					<h2 class="title">Our Team</h2>
+		</div>
+		<div id="team-slider" class="white">
+		
+		<?php foreach($teamMembers as $teamMember) { ?>
+			<div class="card">
+				<img class="img1 img-fluid" src="./img/team/<?php echo $teamMember["id"]?>.jpeg" alt="card image">
+				<div class="card-body text-center">
+					<h4 class="card-title"><?php echo $teamMember["name"]; ?></h4>
+					<p class="card-text"><?php echo $teamMember["desc_short"]; ?></p>
+				</div>
+			</div>
+		<?php } ?>
+		</div>
 
 		<!-- Container -->
-		<div class="container">
+		<div class="container desktop-team">
 
 			<!-- Row -->
 			<div class="row">

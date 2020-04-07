@@ -1,0 +1,402 @@
+
+@media only screen and (max-width: 1134px) {
+   
+    .container{
+        width: 480px !important;
+    }
+    #services-main .icon{
+        width: 100px;
+        height: 90px;
+    }
+    #nav img{
+        margin-right: 0;
+        width: 150px;
+    }
+    img{
+        vertical-align: middle;
+    }
+    #home #services-main .background-img .col-md-4:first-child a {
+        margin-right: 170px !important;
+        right: 0;
+        top: 0;
+    }
+    #home #services-main .background-img .col-md-4:last-child a {
+        margin-left: -40% !important;
+        margin-top: -5%;
+    }
+    #services-main .background-img .col-md-4:first-child a{
+        margin-right: 40%;
+    }
+    #services-main .background-img .col-md-4:last-child a {
+        margin-left: -35%;
+    }
+    #services-main .background-img .col-md-4.second a {
+        margin-left: 50%;
+        margin-top: -6%;
+    }
+    #nav .logo{
+        float: left;
+    }
+    
+    #services-main .background-img{
+        height: 610px;
+        padding-top: 70px;
+    }
+    #home #services-main .background-img {
+        height: 595px;
+        padding-top: 70px;
+    }
+    .nav-collapse {
+        margin-top:0px;
+    }
+
+    #nav.fixed-nav {
+        background-color: rgba(0, 0, 0, 0.5) !important;
+        border: none;
+    }
+    #nav .container{
+        width: 100% !important;
+    }
+    .service-link .fa {
+        display: none;
+    }
+    .technology-based img{
+        display: none;
+    }
+    #who-we-are .container.md-padding{
+        width: 365px;   
+        margin-bottom: 40px;
+
+    }
+    
+    .geneos-quotes{
+        background-image: none;
+        width: initial;
+        padding: 0;
+
+    }
+    .technology-based h2{
+        text-align: center;
+        line-height: 35px;
+        margin-top: 70px;    }
+    .technology-based h2 span{
+        margin-top: 15px;
+        display: block;
+    }
+    #platform-slider-for h4{
+        margin-left: -1px;
+        width: 452px;
+        line-height: 20px;
+    }
+    #platform-slider-for{
+        padding: 0;
+    }
+    #success > .container{
+        background-image: none;
+    }
+    #about-slider-for .blog-content, #success-history-slider .blog-content{
+        text-align: center;
+    }
+    #nav.open .main-nav{
+        width: 220px;
+        background: #1C1D21;
+    }
+    .navbar-nav>li{
+        margin-left: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    #team .card:after{
+        border: none;
+    }
+    .desktop-team  {
+        display: none;
+    }
+    #team{
+        display: block;
+    }
+    #team .card:before {
+        width: 285px;
+        height: 290px;
+        border: 351px solid #0a236b !important;
+        left: -254px !important;
+        top: -350px !important;
+    }
+    
+    #team .card:hover .img1 {
+        visibility: visible;
+    }
+    #team .card:hover .card-body{
+        background: none;
+    }
+    #team .card .card-body {
+    top: 10%;
+    }
+    #team .card .card-body h4{
+        font-size: 25px;
+    }
+    #team .card .card-body p{
+        margin-left: 47px;
+        margin-right: 47px;
+    }
+    
+    #team-slider .slick-list{
+        padding: 0 !important;
+    }
+    #team-slider .slick-dots {
+        margin-bottom: 13px;
+    }
+    .md-padding {
+        padding-bottom: 10px;
+    }
+    
+    #team .card .img1, #team .card .img2 {
+        max-width: 65% !important;
+        margin: 0 14% !important;
+    }
+    #platform-slider .slick-dots{
+        margin-bottom: -45px;
+    }
+    #about-slider .slick-dots{
+        margin-bottom: 15px;
+    }
+    
+    #about-slider .slick-dots {
+        margin-bottom: 60px;
+    }
+    .md-padding {
+        margin-bottom: -45px;
+    }
+    /* design */
+    #services-main .background-img .col-md-4:first-child a {
+        margin-right: 0;
+        right: -10;
+        top: 0;
+    }
+    #services-main .green.background-img .container {
+        background-image: none;
+    }
+    #services-main .icon {
+        width: 117px;
+       
+    }
+    #services-main h4{
+        margin-top: -140px;
+    }
+    #services-main .background-img {
+    height: 520px;
+    padding-top: 70px;
+}
+    #who-we-are .geneos-quotes-design{
+        width: initial;
+        background-image: none;
+    }
+    #design #who-we-are h2 span {
+        padding-right: 191px;
+        text-align: center;
+
+    }
+    #design #who-we-are h2 span.weight-normal-2{
+        margin-right: -202px;
+    /* margin-left: 61px; */
+    /* top: 1px; */
+    margin-top: 50px;
+    }
+    #design .styled-ul li {
+        margin-left: 0 !important;
+    }
+    #about-what-u-need-for .service-link {
+        height: 140px;
+        width: 140px;
+    }
+    #about-what-u-need-for .col-md-4{
+        float: left;
+        padding-right:0;
+    }
+    #design #about #about-what-u-need-slider .slick-list{
+        height: 315px;
+    }
+    #design #success > .container{
+        background-image: none;
+    }
+    #success-history-slider .slick-dots{
+        bottom: 30px;
+    }
+    #success-history-slider .slick-dotted.slick-slider {
+        margin-bottom: -5px;
+    }
+   /*  margin-right: -202px;
+    
+    margin-top: 50px; */
+    
+    
+    /* DEVELOPMENT */
+
+    #development #services-main .blue.background-img .container.md-padding{
+        display: flex;
+    }
+    #services-main .background-img {
+        height: 460px;
+        padding-top: 70px;
+    }
+    #development #services-main .icon {
+        width: 110px;
+        height: 100px;
+    }
+    #development .geneos-quotes {
+        padding: 0px 0 85px 0;
+    }
+    #development .slider-mobile {
+        background-image:none;
+    }
+    #development #about .bg-mobile {
+        background-image:none;
+        height: 480px;
+
+    }
+    
+    #development #about .row {
+        margin-right: -15px;
+        margin-top: -145px;
+        margin-left: -15px;
+    }
+    #development #about .row .black-text .col-md-4.text-center{
+        width: fit-content;
+    }
+    #development #features .features-container {
+        background-image:none;
+        margin-bottom: 65px;
+    }
+    #development #features .md-padding {
+        margin-bottom: -70px;
+        height: 455px;
+        padding-top: 55px;
+        padding-bottom: 30px;
+        padding-left: 60px;
+    }
+    #development #about .sm-padding {
+        padding-top: 40px;
+        padding-left: 30px;
+    }
+    #development #about .bg-mobile > .row > .col-md-4 {
+        padding: 0px;
+        margin-top: 160px;
+    }
+    #development .staff-augmentation-container {
+        background-image: none;
+    }
+    #development .slogan{
+        float: left;
+        margin-top: 15px;
+    }
+    #development #features .features-container ul {
+    margin-top: 30px;
+    margin-left: 40px;
+    }
+    .staff-augmentation-container ul {
+        margin-left: 55px;
+        margin-bottom: 25px;
+    }
+    #staff-augmentation .sm-padding {
+        padding-top: 58px;
+        padding-bottom: 30px;
+        padding-left: 50px;
+    }
+    #development .geneos-quotes h2 {
+        line-height: 50px;
+        width: 560px;
+    }
+    #development .geneos-quotes span:nth-child(3) {
+        float: left;
+        margin-right: 120px;
+        margin-left: 0;
+    }
+
+    /* PLATFORMS */
+    #platforms #odoo{
+        background-image: none;
+    }
+    #platforms #services-main .container.md-padding{
+        display: flex;
+    }
+    #platforms #odoo .container:nth-child(2) {
+        background-image: none;
+    }
+    #platforms #odoo .container:nth-child(1) .col-md-4:nth-child(2) {
+        margin-top: -5px;
+
+    }
+    #services-main .background-img .col-md-4:last-child a {
+        margin-left: 5%;
+    }
+    #platforms #odoo .container:nth-child(1) {
+        height: 125px;
+    }
+    #platforms .geneos-quotes-odoo h2:after, #platforms .geneos-quotes-odoo h2:before{
+        background-image: none;
+    }
+    #platforms #odoo .black-text.text-center{
+        display: inline-flex;
+    }
+    #platforms #odoo .infografia img {
+        vertical-align: middle;
+        width: 370px;
+        
+    }
+    #platforms #odoo .infografia {
+        background-image: none;
+        padding-bottom: 70px;
+    }
+    #platforms #odoo .geneos-quotes-odoo {
+        padding: 25px 0px;
+    }
+    
+    #platforms #odoo .md-padding {
+        margin-bottom: -30px;
+    }
+    #platforms #odoo-ecommerce .md-padding {
+        padding-bottom: 50px;
+    }
+    #platforms #odoo-ecommerce img {
+        margin-left: 35px;
+    }
+    #platforms #odoo-ecommerce .black-text {
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+    #platforms #odoo-ecommerce .black-text ul{
+    padding-left: 14px
+    }
+    #platforms #odoo-ecommerce .black-text ul li:before{
+    margin-right: 10px;
+    }
+    #platforms #odoo-ecommerce .row{
+        margin-top: 10px;
+    }
+    #platforms #moodle h2.black-text{ 
+    margin-top: 32px;
+    margin-left: 15px;
+    }
+    #platforms #moodle .row.moodle-promo .text-center{
+        margin-bottom: 50px;
+    }
+    #platforms #moodle .styled-ul.black-text ul{
+        margin-left: 50px;
+    }
+    #platforms #moodle .row.moodle-info .notebook{
+        display: none;
+    }
+    #platforms #moodle .row.moodle-info .grafico{
+        margin-top: 75px;
+    }
+    #platforms #moodle .container.bg-solapa.moodle{
+        margin-bottom: -55px;
+    }
+    #platforms #services-main .background-img {
+        height: 420px;
+        padding-top: 70px;
+    }
+    #platforms #services-main .col-md-offset-2.col-md-4 h3{
+        width: 222px;
+    }
+}
