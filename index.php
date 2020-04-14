@@ -236,55 +236,55 @@
 		[
 			"name" => "Ibrian Gómez",
 			"desc_short" => "Software Developer / Web Front-end and Back-end Developer",
-			"desc_long" => "This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.",
+			"desc_long" => "Skills: <ul class=\"ul-styled\"><li>Angular</li><li>Node</li><li>React Native</li><li>Python</li><li>Odoo Platform</li></ul>",
 			"id" => "ibrian"
 		],
 		[
 			"name" => "Clara Sorensen",
 			"desc_short" => "Graphic Designer / UX Designer",
-			"desc_long" => "This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.",
+			"desc_long" => "Skills: <ul class=\"ul-styled\"><li>Graphic Designer</li><li>UX Designer</li></ul>",
 			"id" => "cla"
 		],
 		[
 			"name" => "Bruno Tubino",
 			"desc_short" => "Software Developer / Web Front-end and Back-end Developer",
-			"desc_long" => "This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.",
+			"desc_long" => "Skills: <ul class=\"ul-styled\"><li>Odoo Platform</li><li>Web Developer</li></ul>",
 			"id" => "bruno"
 		],
 		[
 			"name" => "Santiago Costa",
 			"desc_short" => "Software Developer / Web Back-end Developer",
-			"desc_long" => "This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.",
+			"desc_long" => "Skills: <ul class=\"ul-styled\"><li>Phyton</li><li>Odoo Platform</li><li>IT Infrastructure Specialist</li></ul>",
 			"id" => "santi"
 		],
 		[
 			"name" => "Mario Ferreyra",
 			"desc_short" => "Administrative Manager / Software Developer",
-			"desc_long" => "This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.",
+			"desc_long" => "Skills: <ul class=\"ul-styled\"><li>Moodle Product Manager</li><li>Project Manager</li><li>Functional Analyst</li></ul>",
 			"id" => "mario"
 		],
 		[
 			"name" => "Martín Di Lisio",
 			"desc_short" => "Project Manager / Functional Analyst / Software Developer",
-			"desc_long" => "This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.",
+			"desc_long" => "Skills: <ul class=\"ul-styled\"><li>Odoo Product Manager</li><li>Project Manager</li><li>Functional Analyst</li></ul>",
 			"id" => "martin"
 		],
 		[
 			"name" => "Pablo Velázquez",
 			"desc_short" => "Technology Manager / Software Developer",
-			"desc_long" => "This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.",
+			"desc_long" => "Skills: <ul class=\"ul-styled\"><li>Web UI: Angular & React</li><li>Node</li><li>PHP</li><li>Technology Manager</li><li>Project Manager</li></ul>",
 			"id" => "pablo"
 		],
 		[
 			"name" => "José Fantasia",
 			"desc_short" => "Sales Manager / Project Manager / Functional Analyst",
-			"desc_long" => "This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.",
+			"desc_long" => "Skills: <ul class=\"ul-styled\"><li>Sales Manager</li><li>Functional Analyst</li><li>Project Manager</li></ul>",
 			"id" => "jose"
 		],
 		[
 			"name" => "Fernando Recci",
 			"desc_short" => "IT Infrastructure Manager / Software Developer",
-			"desc_long" => "This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.",
+			"desc_long" => "Skills: <ul class=\"ul-styled\"><li>Phyton</li><li>Odoo Platform</li><li>IT Infrastructure Specialist</li></ul>",
 			"id" => "fer"
 		],
 
@@ -298,7 +298,7 @@
 		<div class="section-header text-center">
 					<h2 class="title">Our Team</h2>
 		</div>
-		<div id="team-slider" class="white">
+		<div id="team-slider" class="white hidden-desktop">
 		
 		<?php foreach($teamMembers as $teamMember) { ?>
 			<div class="card">
@@ -312,80 +312,69 @@
 		</div>
 
 		<!-- Container -->
-		<div class="container desktop-team">
-
-			<!-- Row -->
-			<div class="row">
-
-				<!-- Section header -->
-				<div class="section-header text-center">
-					<h2 class="title">Our Team</h2>
-				</div>
-				<!-- /Section header -->
-			</div>
-
+		<div class="container desktop-team hidden-mobile">
 			
-	        <div class="row" id="team_members">
+        <div class="row" id="team_members">
 
-	        	<?php foreach($teamMembers as $teamMember) { ?>
+          <?php foreach($teamMembers as $teamMember) { ?>
 
-	        		<!-- Team member -->
-		            <div class="member-card col-xs-12 col-sm-6 col-md-4">
-		            	<a href="#member-<?php echo $teamMember["id"]?>">
-			                <div class="card">
-			                	<img class="img1 img-fluid" src="./img/team/<?php echo $teamMember["id"]?>.jpeg" alt="card image">
-			                	<img class="img2 img-fluid" src="./img/team/<?php echo $teamMember["id"]?>2.jpeg" alt="card image">
-			                	<i class="fa fa-plus"></i>
-			                    <div class="card-body text-center">
-			                        <h4 class="card-title"><?php echo $teamMember["name"]; ?></h4>
-			                        <p class="card-text"><?php echo $teamMember["desc_short"]; ?></p>
-			                    </div>
-			                </div>
-		                </a>
+            <!-- Team member -->
+              <div class="member-card col-xs-12 col-sm-6 col-md-4">
+                <a href="#member-<?php echo $teamMember["id"]?>">
+                    <div class="card">
+                      <img class="img1 img-fluid" src="./img/team/<?php echo $teamMember["id"]?>.jpeg" alt="card image">
+                      <img class="img2 img-fluid" src="./img/team/<?php echo $teamMember["id"]?>2.jpeg" alt="card image">
+                      <i class="fa fa-plus"></i>
+                        <div class="card-body text-center">
+                            <h4 class="card-title"><?php echo $teamMember["name"]; ?></h4>
+                            <p class="card-text"><?php echo $teamMember["desc_short"]; ?></p>
+                        </div>
+                    </div>
+                  </a>
 
-		                <div id="member-<?php echo $teamMember["id"]?>" class="mfp-hide white-popup">
-		                	<div class="row">
-		                		<div class="col-md-6">
-		                			<img class="img-fluid main-image" src="./img/team/<?php echo $teamMember["id"]?>.jpeg" alt="card image">
-		                		</div>
-		                		<div class="col-md-6">
-		                			<h2 class="card-title"><?php echo $teamMember["name"]; ?></h4>
-		                			<h4 class="card-text"><?php echo $teamMember["desc_short"]; ?></h4>
-		                			<hr/>
-				                    <p class="card-text"><?php echo $teamMember["desc_long"]; ?></p>
-				                    <!-- Redes sociales -->
-				                    <!--ul class="list-inline">
-				                        <li class="list-inline-item">
-				                            <a class="social-icon text-xs-center" target="_blank" href="#">
-				                                <i class="fa fa-facebook"></i>
-				                            </a>
-				                        </li>
-				                        <li class="list-inline-item">
-				                            <a class="social-icon text-xs-center" target="_blank" href="#">
-				                                <i class="fa fa-twitter"></i>
-				                            </a>
-				                        </li>
-				                        <li class="list-inline-item">
-				                            <a class="social-icon text-xs-center" target="_blank" href="#">
-				                                <i class="fa fa-skype"></i>
-				                            </a>
-				                        </li>
-				                        <li class="list-inline-item">
-				                            <a class="social-icon text-xs-center" target="_blank" href="#">
-				                                <i class="fa fa-google"></i>
-				                            </a>
-				                        </li>
-				                    </ul-->
-		                			
-		                		</div>
-		                	</div>
-		                </div>
+                  <div id="member-<?php echo $teamMember["id"]?>" class="mfp-hide white-popup">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <img class="img-fluid main-image" src="./img/team/<?php echo $teamMember["id"]?>.jpeg" alt="card image">
+                      </div>
+                      <div class="col-md-6">
+                        <h2 class="card-title"><?php echo $teamMember["name"]; ?></h4>
+                        <h4 class="card-text"><?php echo $teamMember["desc_short"]; ?></h4>
+                        <hr/>
+                          <p class="card-text"><?php echo $teamMember["desc_long"]; ?></p>
+                          <!-- Redes sociales -->
+                          <!--ul class="list-inline">
+                              <li class="list-inline-item">
+                                  <a class="social-icon text-xs-center" target="_blank" href="#">
+                                      <i class="fa fa-facebook"></i>
+                                  </a>
+                              </li>
+                              <li class="list-inline-item">
+                                  <a class="social-icon text-xs-center" target="_blank" href="#">
+                                      <i class="fa fa-twitter"></i>
+                                  </a>
+                              </li>
+                              <li class="list-inline-item">
+                                  <a class="social-icon text-xs-center" target="_blank" href="#">
+                                      <i class="fa fa-skype"></i>
+                                  </a>
+                              </li>
+                              <li class="list-inline-item">
+                                  <a class="social-icon text-xs-center" target="_blank" href="#">
+                                      <i class="fa fa-google"></i>
+                                  </a>
+                              </li>
+                          </ul-->
+                        
+                      </div>
+                    </div>
+                  </div>
 
-		            </div>
-		            <!-- ./Team member -->
-	        	<?php } ?>
+              </div>
+              <!-- ./Team member -->
+          <?php } ?>
 
-	        </div>
+        </div>
 	    </div>
     </div>
     <!-- Team -->
