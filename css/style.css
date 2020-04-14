@@ -3106,7 +3106,7 @@ box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
 }
 
 #services-main .green.background-img .container{
-  background-image: url("../img/design/background.png");
+  background-image: url("../img/en/Icon_diseno-01.png");
   background-repeat: no-repeat;
   background-position: 450px 30px;
   height: 590px;
@@ -3367,11 +3367,11 @@ box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
   background-image: url("../img/development/solapa_staff.png");
 }
 
-#platforms #moodle .container .moodle-promo .col-md-4:nth-child(1) img {
+#platforms #moodle .container .moodle-promo .col-sm-4:nth-child(1) img {
   margin-top:100px;
 }
 
-#platforms #moodle .container .moodle-promo .col-md-4:nth-child(2) h4 {
+#platforms #moodle .container .moodle-promo .col-sm-4:nth-child(2) h4 {
   font-size: 14px;
   text-align: center;
   margin: 0;
@@ -3428,7 +3428,7 @@ box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
   max-width: 100%;
 }
 
-#platforms #moodle .container .moodle-info .col-md-4:nth-child(3) {
+#platforms #moodle .container .moodle-info .col-sm-4:nth-child(3) {
   padding: 50px;
   margin-top: 20px;
 }
@@ -3479,7 +3479,7 @@ box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
 }
 
 #development #about  .bg-mobile {
-    background-image: url(../img/development/iconos_mobile.svg);
+    background-image: url(../img/en/iconos_mobile.svg);
     background-repeat: no-repeat;
     background-position: 450px 0px;
     height: 590px;
@@ -3568,7 +3568,7 @@ box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
 }
 
 #development .staff-augmentation-container {
-  background-image: url(../img/development/Background_staff.png);
+  background-image: url(../img/en/Background_staff.svg);
   background-position:right bottom;
   background-repeat:no-repeat;
   min-height: 715px;

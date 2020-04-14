@@ -126,6 +126,9 @@
             <p>Nos proponemos a partir de un concepto cocreado con ustedes, junto a la cultura e identidad corporativa que posean o desean generar una imagen de marca desde cero, con todos los elementos y aplicaciones graficas y multimediales que requieran </p>
           </div>
         </div>
+        <div class="col-md-8">
+          <img src="img/en/imagen_slider_Marca.png" alt="">
+        </div>
         
       </div>
     </div>

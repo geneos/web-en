@@ -68,7 +68,7 @@
       </div>
 
       <div class="infografia">
-        <img src="img/platforms/odoo_infografia.png" title="Infografia Odoo" alter="infografia"/>
+        <img src="img/en/odoo_infografia.png" title="Infografia Odoo" alter="infografia"/>
       </div>
       
     </div>
@@ -122,7 +122,7 @@
       <div class="col-sm-4 text-center">
         <img src="img/platforms/logo_moodle.png" alt="">
       </div>
-      <div class="col-sm-offset-4 text-center">
+      <div class="col-sm-4 col-sm-offset-4 col-md-offset-0 text-center">
         <!-- Web Apps -->
         <h4 class="black-text">
           Trabajamos desde la cooperativa para ofrecerle a cada<br/>
@@ -149,7 +149,7 @@
         <img src="img/platforms/notebook_moodle.png" alt="">
       </div>
       <div class="col-sm-4 text-center grafico">
-        <img src="img/platforms/infografia_moodle.png" alt="">
+        <img src="img/en/infografia_moodle.png" alt="">
       </div>
       <div id="moodle-success-history-slider" class="col-sm-4 orange">
         <img src="img/platforms/slider_1_moodle.png" alt="">
