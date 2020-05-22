@@ -2636,6 +2636,10 @@ box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
   padding-top: 100px;
 }
 
+#services-main .background-img .col-md-4 {
+  padding-top:50px;
+}
+
 #services-main .three-color.background-img {
   background-image: url("../img/background_transparente.png");
 }
@@ -2733,12 +2737,12 @@ box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
 }
 
 #services-main h4 {
-  font-size: 14px;
+  font-size: 16px;
   text-align: center;
   color: white;
   margin: 0;
   font-weight: 300;
-  line-height: 26px;
+  line-height: 35px;
 }
 
 /*** NAVIGATION **/
@@ -2880,8 +2884,7 @@ box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
   line-height: 65px;
   margin: 0 auto;
   text-align: center;
-  font-size: 50px;
-  font-weight: 500;
+  font-size: 46px;
 }
 
 .technology-based {
@@ -3108,13 +3111,15 @@ box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
 #services-main .green.background-img .container{
   background-image: url("../img/en/Icon_diseno-01.png");
   background-repeat: no-repeat;
-  background-position: 450px 30px;
+  background-position: 450px 60px;
   height: 590px;
+  /*  513 x 550 */
+  background-size: 461.7px 495px;
 }
 
 #design #services-main .background-img .col-md-4:nth-child(2){
   padding:0px;
-  margin-top:180px;
+  margin-top:210px;
 }
 
 .geneos-quotes-design {
@@ -3126,6 +3131,12 @@ box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
   font-size: 50px;
   padding:24px 0;
   font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.geneos-quotes-design.right {
+  text-align: right;
+  padding-right: 165px;
 }
 
 #design #who-we-are h2 {
@@ -3134,7 +3145,6 @@ box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
 
 #design #who-we-are h2 span{
   font-style: italic;
-  padding-right: 165px;
   margin: 15px 0px;
   display: block;
   text-align: right;
@@ -3282,16 +3292,17 @@ box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
 }
 
 #odoo  .container:nth-child(1) .col-md-4:nth-child(2) {
-  margin-top: 180px;
+  margin-top: 145px;
   padding:0px;
+  margin-left:-50px;
 }
 
 #odoo .container:nth-child(1) h4 {
-  font-size: 14px;
   text-align: center;
   margin: 0;
   font-weight: 300;
-  line-height: 26px;
+  font-size:16px;
+  line-height: 35px;
 }
 
 #platforms #odoo .container:nth-child(2){
@@ -3464,14 +3475,13 @@ box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
   padding: 100px 0 86px 0;
 }
 
-#development .geneos-quotes span:nth-child(1){
-  float: right;
-  margin-right: 120px;
+#development .geneos-quotes.right{
+  text-align:right;
+
 }
 
-#development .geneos-quotes span:nth-child(3){
-  float: left;
-  margin-left: 120px;
+#development .geneos-quotes.right span{
+  margin-right: 160px;
 }
 
 #development .geneos-quotes h2 {
@@ -3483,6 +3493,8 @@ box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
     background-repeat: no-repeat;
     background-position: 450px 0px;
     height: 590px;
+    /*  565 x 523 */
+    background-size: 508.5px 470.7px ;
 }
 
 #development #about .bg-mobile > .row > .col-md-4 {
@@ -3491,11 +3503,11 @@ box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
 }
 
 #development #about .bg-mobile h4 {
-  font-size: 14px;
+  font-size: 16px;
   text-align: center;
   margin: 0;
   font-weight: 300;
-  line-height: 26px;
+  line-height: 35px;
   margin-bottom:30px;
 }
 
@@ -3580,12 +3592,12 @@ box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
 }
 
 #development #staff-augmentation h4 {
-  font-size: 14px;
+  font-size: 16px;
   text-align: center;
   margin: 0;
   font-weight: 300;
-  line-height: 26px;
-  margin-bottom: 30px;
+  line-height: 35px;
+  margin-bottom: 15px;
 }
 
 .staff-augmentation-container ul {

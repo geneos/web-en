@@ -39,7 +39,7 @@
 <div class="section">
     <!-- Container -->
     <div class="container md-padding">
-      <div class="row geneos-quotes">
+      <div class="row geneos-quotes right">
         
         <h2 class="black-text">
           <span>Tu negocio en todos los dispositivos</span><br/>
@@ -69,10 +69,10 @@
       <div class="row ">
         <div class="col-md-offset-4 col-md-4 text-center">
         <h4 class="black-text">
-            Trabajamos desde la cooperativa para ofrecerle a cada<br/>
-            cliente una propuesta estrategia de creación o de <br/>
-            continuidad en el diseño de su identidad marcaria, para <br/>
-            posicionarse en la mente del consumidor <br/>
+            Trabajamos desde la cooperativa para ofrecerle a cada
+            cliente una propuesta estrategia de creación o de
+            continuidad en el diseño de su identidad marcaria, para
+            posicionarse en la mente del consumidor
           </h4>
           <div class="col-xs-4 text-center">
             <img src="img/development/icon_react_native.png" alt="">
@@ -111,7 +111,7 @@
         <h2 class="font-caveat white-text">Ventajas</h2>
       </div>
 
-      <div class="col-xs-offset-4 styled-ul">
+      <div class="col-xs-offset-5 styled-ul">
         <ul>
           <li class="geolocalizacion">is simply dummy text</li>
           <li class="formacion">is simply dummy text</li>
@@ -151,10 +151,10 @@
         <div class="col-md-4 ">
           <!-- Web Apps -->
           <h4 class="black-text text-center">
-            Trabajamos desde la cooperativa para ofrecerle a cada<br/>
-            cliente una propuesta estrategia de creación o de <br/>
-            continuidad en el diseño de su identidad marcaria, para <br/>
-            posicionarse en la mente del consumidor <br/>
+            Trabajamos desde la cooperativa para ofrecerle a cada
+            cliente una propuesta estrategia de creación o de
+            continuidad en el diseño de su identidad marcaria, para
+            posicionarse en la mente del consumidor
           </h4>
           <ul class="col-xs-offset-4 black-text">
             <li>Desarrollo web Angular</li>

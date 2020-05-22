@@ -13,7 +13,7 @@
 
       <div class="col-md-4">
         <!-- Graphic design -->
-        <a href="design.php" target="_blank" class="service-link">
+        <a href="design.php" class="service-link">
           <div class="icon icon-graphic-design" ></div>
           <h3> GRAPHIC DESIGN </h3>
           <i class="fa fa-angle-down white-text" style="font-size: 50pt;"></i>
@@ -22,7 +22,7 @@
 
       <div class="col-md-4 second">
         <!-- Web Apps -->
-        <a href="development.php" target="_blank" class="service-link">
+        <a href="development.php" class="service-link">
           <div class="icon icon-web-apps" ></div>
           <h3> WEP/MOBILE APPS </h3>
           <h3> STAFF AUGMENTATION </h3>
@@ -32,7 +32,7 @@
 
       <div class="col-md-4 ">
         <!-- Managment Software -->
-        <a href="platforms.php" target="_blank" class="service-link ">
+        <a href="platforms.php" class="service-link ">
           <div class="icon icon-managment-software" ></div>
           <h3> MANAGMENT SOFTWARE </h3>
           <h3> PLATFORM ELEARNING </h3>
@@ -100,20 +100,22 @@
           <div class="about">
             <img class="about-img" src="img/news/about_icon.svg" alt="About Us">
             <h3>Abous Us</h3>
-            <p>Founded in 2013 by systems engineers, programmers and design professionals that allow us to work in an integral way in the search of solutions for our clients to help improve their overall business results and gain more from their technology investments.</p>
+            <p>We are a technology-based cooperative organization specialized in Free Software, founded in 2013 by systems engineers, programmers, and design professionals. We understand that each client’s requirements are unique, and, as an IT company, we pride ourselves on our capacity to bring together technology, talent, innovation, attention to detail, and the highest quality standards. We ensure excellence in providing the best IT solutions to customers to meet their present and future business needs most efficiently and effectively.</p>
           </div>
           <div class="about contenedor">
             <!-- <i class="fa fa-cubes"></i> -->
             <img class="about-img" src="img/news/work_icon.svg" alt="About Us">
             <h3>About our Work</h3>
-            <p>We work with Agile methodologies for each project involving the customer in the whole cycle and our processes are designed to make our team more efficient, more focused, and more consistent.</p>
+            <br/><br/><br/>
+            <p>We work with Agile Methodologies for each project, involving the customer in the whole development cycle. Our processes are designed to make our team more efficient, focused and consistent.</p>
             <br>
           </div>
           <div class="about contenedor">
             <!-- <i class="fa fa-indent"></i> -->
             <img class="about-img" src="img/news/filosofia_icon.svg" alt="About Us">
             <h3>Our philosophy</h3>
-            <p>The more efficient we are the faster we get results; the more focus we have the better the code; and the more consistent we become the more predictable our output and accurate our planning.</p>
+            <br/><br/><br/>
+            <p>The more efficient we are, the faster we get results; the more focus we have, the better the code; and the more consistent we become, the more predictable our output and accurate our planning are.</p>
             <br>
             <br>
           </div>
@@ -309,8 +311,8 @@
 				</div>
 			</div>
 		<?php } ?>
-		</div>
-
+    </div>
+    
 		<!-- Container -->
 		<div class="container desktop-team hidden-mobile">
 			

@@ -22,10 +22,10 @@
       <div class="col-md-4">
         <!-- Web Apps -->
         <h4>
-          Trabajamos desde la cooperativa para ofrecerle a cada<br/>
-          cliente una propuesta estrategia de creación o de <br/>
-          continuidad en el diseño de su identidad marcaria, para <br/>
-          posicionarse en la mente del consumidor <br/>
+          Trabajamos desde la cooperativa para ofrecerle a cada
+          cliente una propuesta estrategia de creación o de
+          continuidad en el diseño de su identidad marcaria, para
+          posicionarse en la mente del consumidor
         </h4>
       </div>
 
@@ -38,7 +38,7 @@
 
 <div id="who-we-are" class="section">
   <div class="container md-padding">
-    <div class="row geneos-quotes-design">
+    <div class="row geneos-quotes-design right">
       
       <h2 class="black-text ">
         <span class="weight-normal-1 pull-right">You never...</span><br/>
@@ -115,15 +115,18 @@
         <div id="about-what-u-need-slider" class="col-md-4 white">
           <div class="about">
             <h3>Crear una marca desde cero</h3>
-            <p>Nos proponemos a partir de un concepto cocreado con ustedes, junto a la cultura e identidad corporativa que posean o desean generar una imagen de marca desde cero, con todos los elementos y aplicaciones graficas y multimediales que requieran </p>
+            <br/><br/><br/>
+            <p>Nos proponemos a partir de un concepto cocreado con ustedes, junto a la cultura e identidad corporativa que posean o desean generar una imagen de marca desde cero, con todos los elementos y aplicaciones graficas y multimediales que requieran.</p>
           </div>
           <div class="about contenedor">
-            <h3>Crear una marca desde cero</h3>
-            <p>Nos proponemos a partir de un concepto cocreado con ustedes, junto a la cultura e identidad corporativa que posean o desean generar una imagen de marca desde cero, con todos los elementos y aplicaciones graficas y multimediales que requieran </p>
+            <h3>Rediseñar una marca</h3>
+            <br/><br/><br/>
+            <p>Es fácil deducir cuando un anuncio es antiguo, y con las marcas los años también pasan. Las modas y las tecnologías avanzan. Nos proponemos reposicionar nuevamente la marca, diseñando lo que fuera necesario y aplicándolo en diversos mensajes.</p>
           </div>
           <div class="about contenedor">
-            <h3>Crear una marca desde cero</h3>
-            <p>Nos proponemos a partir de un concepto cocreado con ustedes, junto a la cultura e identidad corporativa que posean o desean generar una imagen de marca desde cero, con todos los elementos y aplicaciones graficas y multimediales que requieran </p>
+            <h3>Aplicar la identidad marcaria</h3>
+            <br/><br/>
+            <p>esde un ícono, hasta el color de las prendas deben tener sinergia en comunicación, logrando transmitir mensajes unidos bajo una estrategia de identidad marcaria. En base a cada empresa buscamos transmitir diferentes mensajes con una misma estética.</p>
           </div>
         </div>
         <div class="col-md-8">

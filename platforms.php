@@ -49,10 +49,10 @@
       <div class="col-md-4">
         <!-- Web Apps -->
         <h4 class="black-text">
-          Trabajamos desde la cooperativa para ofrecerle a cada<br/>
-          cliente una propuesta estrategia de creación o de <br/>
-          continuidad en el diseño de su identidad marcaria, para <br/>
-          posicionarse en la mente del consumidor <br/>
+          Trabajamos desde la cooperativa para ofrecerle a cada
+          cliente una propuesta estrategia de creación o de
+          continuidad en el diseño de su identidad marcaria, para
+          posicionarse en la mente del consumidor
         </h4>
       </div>
     </div>
@@ -88,7 +88,7 @@
       <img src="img/platforms/imagen_izq_odoo.png" title="Ecommerce con Odoo" alter="Ecommerce con Odoo"/>
     </div>
 
-    <div class="col-sm-6 styled-ul black-text">
+    <div class="col-sm-6 styled-ul black-text md-padding">
       <h2  class="violet-text"> CREÁ UN E-COMMERCE DINAMICO Y ADAPTALO A TU MARCA</h2>
       <ul>
         <li >is simply dummy text of the printing and typesetting </li>
