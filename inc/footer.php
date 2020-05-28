@@ -1,6 +1,60 @@
-    <!-- Footer -->
-      <!-- <footer id="footer" class="sm-padding bg-dark"> -->
+      <div id="form" class="section" style="background-color:#479544">
+
+        <!-- Container -->
+        <div class="container md-padding">
+          <div class="section-header-about text-center">
+            <h2 class="title-about">Contact us!</h2>
+          </div>
+
+          <!-- Row -->
+          <div class="row">
+            <div class="col-md-offset-2 col-md-8">
+              <form>
+                <div class="form-group">
+                  <label for="form_email">Contact email</label>
+                  <input required type="email" class="form-control" name="email" id="form_email" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                  <label for="form_topic">Topic</label>
+                  <select required class="form-control" name="topic" id="form_topic">
+                    <option value="">- Select topic -</option>
+                    <option value="Graphic Design">Graphic Design</option>
+                    <option value="Web/Mobile Apps">Web/Mobile Apps</option>
+                    <option value="Staff Augmentation">Staff Augmentation</option>
+                    <option value="Managmet Software">Managmet Software</option>
+                    <option value="ELearning Platform">ELearning Platform</option>
+                    <option value="Other">Other</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="form_needs">What's your needs?</label>
+                  <textarea required class="form-control" name="needs" id="form_needs" rows="3"></textarea>
+                </div>
+                <div class="form-group text-center">
+                  <button class="btn" id="form_send" type="submit">Send</button>
+                </div>
+                
+                <div class="form-group antispam">
+                    <label for="url">No ingresar nada</label>
+                    <input type="text" class="form-control" name="url" id="url" placeholder="No ingresar nada">
+                </div>
+
+                <div class="form-group antispam">
+                    <label for="url">No ingresar nada</label>
+                    <input type="text" class="form-control" name="website" id="website" placeholder="No ingresar nada">
+                </div>
+              </form>
+            </div>
+          </div>
+          <!-- /Row -->
+        </div>
+        <!-- /Container -->
+      </div>
+      <!-- /Section -->
+          
+      <!-- Footer -->
       <footer id="footer" class="sm-padding">
+
         <!-- Container -->
         <div class="container">
 
@@ -8,13 +62,6 @@
           <div class="row">
 
             <div class="col-md-12">
-
-              <!-- footer logo -->
-    <!-- 					<div class="footer-logo">
-                <i class="icon-header icon-logo-geneos">&#xe808;</i>
-              </div> -->
-              <!-- /footer logo -->
-
 
               <div class="row">
 
@@ -77,34 +124,35 @@
       </footer>
       <!-- /Footer -->
 
-      <!-- Back to top -->
-      <div id="back-to-top"></div>
-      <!-- /Back to top -->
+    <!-- Back to top -->
+    <div id="back-to-top"></div>
+    <!-- /Back to top -->
 
-      <!-- Preloader -->
-      <div id="preloader">
-        <div class="preloader">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="preloader">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
-      <!-- /Preloader -->
+    </div>
+    <!-- /Preloader -->
 
-      <!-- jQuery Plugins -->
-      <script type="text/javascript" src="js/jquery.min.js"></script>
-      <script type="text/javascript" src="js/bootstrap.min.js"></script>
-      <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-      <script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+    <!-- jQuery Plugins -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+    <script src="js/jquery.validate.min.js "></script>
 
-      <!-- Slick Carousel -->
-        <link rel="stylesheet" type="text/css" href="css/slick.css"/>
-        <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
-        <script type="text/javascript" src="js/slick.js"></script>
+    <!-- Slick Carousel -->
+      <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+      <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+      <script type="text/javascript" src="js/slick.js"></script>
 
-        <script type="text/javascript" src="js/main.js"></script>
+      <script type="text/javascript" src="js/main.js"></script>
 
-    </body>
+  </body>
 
 </html>

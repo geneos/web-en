@@ -41,9 +41,8 @@
     <div class="row geneos-quotes-design right">
       
       <h2 class="black-text ">
-        <span class="weight-normal-1 pull-right">You never...</span><br/>
-        get a second chance <br/>
-        to make a first impression<br/>
+        <span class="weight-normal-1 pull-right">
+        You never get a second chance to make a first impression
         <span class="weight-normal-2 pull-right">Oscar Wilde / Will Rogers</span>
       </h2>
       
@@ -125,8 +124,8 @@
           </div>
           <div class="about contenedor">
             <h3>Aplicar la identidad marcaria</h3>
-            <br/><br/>
-            <p>esde un ícono, hasta el color de las prendas deben tener sinergia en comunicación, logrando transmitir mensajes unidos bajo una estrategia de identidad marcaria. En base a cada empresa buscamos transmitir diferentes mensajes con una misma estética.</p>
+            <br/><br/><br/>
+            <p>Desde un ícono, hasta el color de las prendas deben tener sinergia en comunicación, logrando transmitir mensajes unidos bajo una estrategia de identidad marcaria. En base a cada empresa buscamos transmitir diferentes mensajes con una misma estética.</p>
           </div>
         </div>
         <div class="col-md-8">

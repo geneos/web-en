@@ -249,6 +249,37 @@
 		arrows: true,
 		centerMode: true,
 		autoplay:false,
-	});
+  });
+  
+  $('#form #form_send').click(function(e) {
+    e.preventDefault();
+
+    var form = $( "#form form" );
+    form.validate();
+
+    var url = 'php/form.php';
+
+    if (form.valid())
+    $.ajax({
+      type: "POST",
+      url: url,
+      data: {
+        email: $('#form_email').val(),
+        topic: $('#form_topic').val(),
+        needs: $('#form_needs').val()
+      }, // serializes the form's elements.
+      success: function(data)
+      {
+        if (data.success){
+          alert('Thank you! we will contact you soon');
+          $('#form_email').val('');
+          $('#form_topic').val('');
+          $('#form_needs').val('')
+        }
+        else
+          alert('Sorry, there was a problem, please try again later');
+      }
+    });
+  });
 
 })(jQuery);

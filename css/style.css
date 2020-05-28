@@ -283,7 +283,7 @@ ul, ol {
 
 /* --  Input  -- */
 
-input[type="text"], input[type="email"], input[type="password"], input[type="number"], input[type="date"], input[type="url"], input[type="tel"], textarea {
+select, input[type="text"], input[type="email"], input[type="password"], input[type="number"], input[type="date"], input[type="url"], input[type="tel"], textarea {
     height: 40px;
     width: 100%;
     border: none;
@@ -428,8 +428,12 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     }
     .main-nav>li>a {
         color: #10161A;
-        padding: 15px 0px;
+        padding: 10px 0px;
     }
+
+    .main-nav>li.sub-item>a {
+      padding: 5px 0px;
+  }
 
     .navbar-nav>li {
       float:none;
@@ -439,19 +443,13 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     }
     .main-nav>li>a:hover, .main-nav>li>a:focus, .main-nav>li.active>a {
         background: transparent;
-        color: #0a236b;
+        color: #479544 !important;
     }
-    .main-nav>li>a:after {
-        content: "";
-        display: block;
-        background-color: #0a236b;
-        height: 2px;
-        width: 0%;
-        -webkit-transition: 0.2s width;
-        transition: 0.2s width;
+    .main-nav>li.sub-item a {
+      font-size:16px;
     }
-    .main-nav>li>a:hover:after, .main-nav>li.active>a:after {
-        width: 100%;
+    .main-nav>li.main-item {
+      font-weight: bold;
     }
     /* dropdown */
     .has-dropdown {
@@ -2783,8 +2781,9 @@ box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
 }
 
 .navbar-nav>li {
-  margin-left: 50px;
-  width: 350px;
+  margin-left: 70px;
+  width: 300px;
+  text-align: right;
 }
 
 .main-nav {
@@ -3129,18 +3128,19 @@ box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
   margin: 0 auto;
   text-align: center;
   font-size: 50px;
-  padding:24px 0;
+  padding:7px 0;
   font-weight: 500;
   margin-bottom: 15px;
 }
 
 .geneos-quotes-design.right {
   text-align: right;
-  padding-right: 165px;
+  padding-right: 160px;
 }
 
 #design #who-we-are h2 {
   font-size:40px;
+  margin-top: 78px;
 }
 
 #design #who-we-are h2 span{
@@ -3148,11 +3148,14 @@ box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
   margin: 15px 0px;
   display: block;
   text-align: right;
-  width: 100%;
+}
+
+#design #who-we-are .geneos-quotes-design h2 span{
+  width: 728px;
 }
 
 #design #who-we-are .slogan h2 {
-  line-height: 30px;
+  line-height: 35px;
 }
 
 #design #who-we-are .slogan .green-text {
@@ -3604,6 +3607,24 @@ box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
   font-size:14px;
   list-style:inside;
   margin-left:30px;
+}
+
+#form button.btn{
+  background-color: #0a236b;
+  font-size:16px;
+  color: white;
+  margin-top: 15px;
+}
+
+.antispam {
+  display: none;
+}
+
+#form form label.error{
+  position: absolute;
+  font-size: 12px;
+  font-weight: normal;
+  color: #dc3545;
 }
 
 
