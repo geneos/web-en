@@ -19,7 +19,7 @@
       <!--  Main navigation  -->
       <ul class="main-nav nav navbar-nav navbar-right">
         <!-- <li><a href="#home">Home</a></li> -->
-        <li class="main-item"><a href="index.php">INICIO</a></li>
+        <li class="main-item"><a href="index.php">HOME</a></li>
         <li class="sub-item"><a id="xxx" href="<?php if(PAGE_NAME != 'home') echo 'index.php' ?>#who-we-are">Who we are?</a></li>
         <li class="sub-item"><a href="<?php if(PAGE_NAME != 'home') echo 'index.php' ?>#about">Why choose us?</a></li>
         <li class="sub-item"><a href="<?php if(PAGE_NAME != 'home') echo 'index.php' ?>#platforms">Technologies</a></li>
