@@ -474,9 +474,7 @@
     		"problem" => "To present institutional information, projects and activities of the center.",
     		"solution" => "Web design and web site development."
     	],
-    	
-    	/*** DUMMY ****/
-    	
+    	    	
     ]
 
     ?>
@@ -566,6 +564,6 @@
 		<!-- /Container -->
 
 	</div>
-    <!-- /Blog -->
+    <!-- /Success Histories -->
 
 <?php include('inc/footer.php') ?>

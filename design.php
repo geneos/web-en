@@ -145,103 +145,62 @@
 
     <?php
 
-    $successHistories = [
+    $successHistories2 = [
     	[
-    		"name" => "PANALAB Laboratories",
-    		"type" => "Industry",
-    		"img" => "panalab-02.png",
-    		"technologies" => ["java","postgresql"],
-    		"problem" => "To find a solution to the production process management automation and production integration with the administrative management.",
-    		"solution" => "Compiere ERP (Enterprise Resource Planning) system implementation and Libero MRP (Material Requirement Planning) module customization for production process management."
+        "name" => "UNAJ University",
+        "type" => "Presentation",
+    		"img" => "design/success_histories/casos_exito_web_2-01.png",
+    		"problem" => "Presentación para ingresar al campus virtual de modo dinámico.",
+    		"solution" => " Video de introducción animado con la identidad marcaria de la institución."
     	],
 		[
-    		"name" => "MATEO Hermanos S.A.",
-    		"type" => "Industry",
-    		"img" => "mateo-01.png",
-    		"technologies" => ["java","postgresql"],
-    		"problem" => "To find a solution to the production process management automation and production integration with the administrative management.",
-    		"solution" => "Libertya MRP (Material Requirement Planning) system implementation and Libertya ERP (Enterprise Resource Planning) module customization for production process management."
+        "name" => "MATEO Hermanos S.A.",
+        "type" => "Presentation",
+    		"img" => "design/success_histories/casos_exito_web_2-02.png",
+    		"problem" => "Presentación digital de presentación de proyecto.",
+    		"solution" => "Diapositivas digitales para la presentación manteniendo la cultura e identidad de la empresa."
     	],
-		[
-    		"name" => "WM Argentina S.A.",
-    		"type" => "Industry",
-    		"img" => "wm.png",
-    		"technologies" => ["odoo"],
-    		"problem" => "To find a new information system solution to the company processes management.",
-    		"solution" => "Odoo ERP (Enterprise Resource Planning) system implementation and custom modules development."
-    	],
-    	[
-    		"name" => "UNAJ University",
-    		"type" => "Education",
-    		"img" => "unaj-01.png",
-    		"technologies" => ["moodle","nodejs","reactjs","java"],
-    		"problem" => "Moodle LMS (Learning Management System) and SIU Guarani AMS (Academic Management System) integration. Technical support.",
-    		"solution" => "Interface development to synchronize both platforms. Bring support for system administration."
-    	],
-		[
-    		"name" => "FLACSO University",
-    		"type" => "Education",
-    		"img" => "flacso.png",
-    		"technologies" => ["moodle","nodejs","reactjs","java"],
-    		"problem" => "Support for Moodle LMS (Learning Management System) use. User experience (UX) improvements and custom requirements on Moodle.",
-    		"solution" => "Bring support for system administration. Web design and development. Custom modules development."
-    	],
-		[
-    		"name" => "UNAHUR University",
-    		"type" => "Education",
-    		"img" => "unahur.png",
-    		"technologies" => ["moodle","nodejs","reactjs","java"],
-    		"problem" => "Moodle LMS (Learning Management System) and SIU Guarani AMS (Academic Management System) integration.",
-    		"solution" => "Interface development to synchronize both platforms."
-    	],
-		[
-    		"name" => "CATSPBA",
-    		"type" => "Education",
-    		"img" => "catspba.png",
-    		"technologies" => ["moodle"],
-    		"problem" => "Support for Moodle LMS (Learning Management System) use. User experience (UX) improvements and custom requirements on Moodle.",
-    		"solution" => "Bring support for system administration. Web design and development. Custom modules development."
-    	],
-		[
-    		"name" => "MAR CHIQUITA District",
-    		"type" => "Goverment",
-    		"img" => "marchiquita.png",
-    		"technologies" => ["wordpress"],
-    		"problem" => "To present cultural spaces, places and activities of the district.",
-    		"solution" => "Web design and web site development. Custom modules development."
-    	],
-		[
-    		"name" => "TAPALQUE District",
-    		"type" => "Goverment",
-    		"img" => "tapalque.png",
-    		"technologies" => ["wordpress"],
-    		"problem" => "To present tourism spaces, places and activities of the district.",
-    		"solution" => "Web design and web site development."
-    	],
-		[
-    		"name" => "CINEA UNICEN",
-    		"type" => "Education",
-    		"img" => "cinea.png",
-    		"technologies" => ["drupal"],
-    		"problem" => "To present institutional information, projects and activities of the center.",
-    		"solution" => "Web design and web site development."
-    	],
-		[
-    		"name" => "CIEP UNICEN",
-    		"type" => "Education",
-    		"img" => "ciep.png",
-    		"technologies" => ["drupal"],
-    		"problem" => "To present institutional information, projects and activities of the center.",
-    		"solution" => "Web design and web site development."
-    	],
-    	
-    	/*** DUMMY ****/
-    	
+			[
+        "name" => "Mar Chiquita District",
+        "type" => "Web Design",
+    		"img" => "design/success_histories/casos_exito_web_2-03.png",
+    		"problem" => "Rediseño de la web de la Red de Espacios Culturales de Mar chiquita.",
+    		"solution" => "Desarrollo de la web para la red con una página específica para cada espacio individual ."
+      ],
+      [
+        "name" => "San Cayetano District",
+        "type" => "Design",
+    		"img" => "design/success_histories/casos_exito_web_2-04.png",
+    		"problem" => "Diseño para la campaña de donación de órganos en conjunto con la insitución pública secundaria del municipio.",
+    		"solution" => "Resolución del diseño inicial de la secundaria para ejecutar digitalmente piezas diversas de la campaña 360°."
+      ],
+      [
+        "name" => "General Works",
+        "type" => "Design",
+    		"img" => "design/success_histories/casos_exito_web_2-05.png",
+    		"problem" => "Comunicación digital para diferentes emprendimientos y empresas.",
+    		"solution" => "Diseño digital de flyer, banner, folletería, presentaciones, emailmarketing."
+      ],
+      [
+        "name" => "Flacso Virtual.",
+        "type" => "Design",
+    		"img" => "design/success_histories/casos_exito_web_2-06.png",
+    		"problem" => "Campus virtual básico en diseño sin imagen marcaria.",
+    		"solution" => "Diseño de pictogramas y banners para el campus virtual de la institución, junto con la identidad de marca en todo el campus virtual."
+      ],
+      [
+        "name" => "Mar Chiquita District",
+        "type" => "Corporative Image",
+    		"img" => "design/success_histories/casos_exito_web_2-07.png",
+    		"problem" => "Diseño de la imagen marcaria e isologotipo para Red de Espacios Culturales de Mar Chiquita",
+    		"solution" => "Diseño de identidad e isologotipo desde cero en base a las cualidades detalladas por el cliente."
+    	]
+    	    	
     ]
 
     ?>
 			
-	<!-- Success Histories -->
+	<!-- Success Histories 2-->
 	<div id="success" class="section bg-grey" >
 
 		<!-- Container -->
@@ -254,36 +213,11 @@
 					<h2 class="title green">Success Stories</h2>
 				</div>
 
-				<?php 
-
-				$verticalFilters = ['All'];
-				$techFilters = ['All'];
-
-				foreach($successHistories as $successHistory) { 
-					if ( array_search($successHistory["type"], $verticalFilters) === false )
-						$verticalFilters[] = $successHistory["type"];
-
-					foreach($successHistory["technologies"] as $tech) { 
-						if ( array_search($tech, $techFilters) === false )
-							$techFilters[] = $tech;
-					}
-					
-				} 
-
-				?>
-
 				<div class="center-sliders">
 
+					<div id="success-history-slider2" class="filtering green">
+						<?php foreach($successHistories2 as $successHistory) { ?>
 
-
-					<div id="success-history-slider" class="filtering green">
-						<?php foreach($successHistories as $successHistory) { ?>
-
-							<?php
-							$techs = "";
-							foreach($successHistory["technologies"] as $tech) {
-								$techs .= " ".$tech;
-							} ?>
 
 							<div data-key="<?php echo $successHistory["type"].$techs?>">
 								<div class="blog row">
@@ -295,12 +229,6 @@
 										<img class="img-responsive" src="./img/<?php echo $successHistory["img"]?>" alt="">
 									</div>
 									<div class="blog-content col-md-6 col-sm-6">
-										<p><strong>Technologies</strong></p>
-										<ul class="blog-meta">
-											<?php foreach($successHistory["technologies"] as $tech) {?>
-												<li><i class="icon-tec-med icon-<?php echo $tech ?>"></i></li>
-											<?php } ?>
-										</ul>
 										<p>
 											<strong>Problem:</strong> <?php echo $successHistory["problem"]?>
 										</p>
@@ -320,6 +248,6 @@
 		<!-- /Container -->
 
 	</div>
-    <!-- /Blog -->
+    <!-- /Success Histories 2-->
     
 <?php include('inc/footer.php') ?>

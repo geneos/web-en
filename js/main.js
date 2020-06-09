@@ -105,14 +105,13 @@
 		// }
 	});
 
-	$("#about-slider-for,#about-slider").on("init", function(event, slick) {
+	$("#about-slider-for,#about-slider,about-slider-for2").on("init", function(event, slick) {
 		for (var i=0 ; i < slick.$slides.length ; i++) {
 			var currSlide = $(slick.$slides[i]);
 			currSlide.addClass(currSlide.children().children().first().data("key"));
 		}
 	    
 	})
-
 	$('#about-slider-for').slick({
 		slidesToShow: 1,
 		slidesToScroll: 1,
@@ -228,6 +227,16 @@
 		centerMode: true,
 		autoplay:true,
   });
+  $('#success-history-slider2').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		dots: true,
+		centerMode: true,
+		focusOnSelect: true,
+		arrows: false,
+		centerMode: true,
+		autoplay:true,
+  });
   
   $('#moodle-success-history-slider').slick({
 		slidesToShow: 1,
@@ -280,6 +289,8 @@
           alert('Sorry, there was a problem, please try again later');
       }
     });
+    else
+      alert('Please check the data entered');
   });
 
 })(jQuery);
