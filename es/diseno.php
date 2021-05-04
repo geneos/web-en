@@ -15,7 +15,7 @@
         <!-- Graphic design -->
         <a href="#" target="_blank" class="service-link">
           <div class="icon icon-graphic-design" ></div>
-          <h3> GRAPHIC DESIGN </h3>
+          <h3> DISEÑO GRAFICO </h3>
         </a>
       </div> 
 
@@ -42,7 +42,7 @@
       
       <h2 class="black-text ">
         <span class="weight-normal-1 pull-right">
-        You never get a second chance to make a first impression
+        Nunca tienes una segunda oportunidad para causar una primera impresión.
         <span class="weight-normal-2 pull-right">Oscar Wilde / Will Rogers</span>
       </h2>
       

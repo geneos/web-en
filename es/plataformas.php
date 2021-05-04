@@ -15,7 +15,7 @@
         <!-- Graphic design -->
         <a href="#odoo"  class="service-link">
           <div class="icon icon-managment-software" ></div>
-          <h3> MANAGMENT SOFTWARE </h3>
+          <h3> SOFTWARE DE GESTION </h3>
           <i class="fa fa-angle-down white-text" style="font-size: 50pt;"></i>
         </a>
       </div> 
@@ -49,10 +49,12 @@
       <div class="col-md-4">
         <!-- Web Apps -->
         <h4 class="black-text">
-          Trabajamos desde la cooperativa para ofrecerle a cada
-          cliente una propuesta estrategia de creación o de
-          continuidad en el diseño de su identidad marcaria, para
-          posicionarse en la mente del consumidor
+        El más completo software de gestión de código abierto. 
+        Dispone de un conjunto de aplicaciones 
+        para llevar adelante de forma integral la gestión de una empresa. 
+        En otras palabras, todas las acciones y transacciones generadas desde un área 
+        se reflejan e immpactan en todas las áreas de modo inmediato, 
+        logrando unificar el manejo de la información para la toma de decisiones.
         </h4>
       </div>
     </div>
@@ -91,13 +93,14 @@
     <div class="col-sm-6 styled-ul black-text md-padding">
       <h2  class="violet-text"> CREÁ UN E-COMMERCE DINAMICO Y ADAPTALO A TU MARCA</h2>
       <ul>
-        <li >is simply dummy text of the printing and typesetting </li>
-        <li >is simply dummy text of the printing and typesetting </li>
-        <li >is simply dummy text of the printing and typesetting </li>
-        <li >is simply dummy text of the printing and typesetting </li>
-        <li >is simply dummy text of the printing and typesetting </li>
-        <li >is simply dummy text of the printing and typesetting </li>
-        <li >is simply dummy text of the printing and typesetting </li>
+        <li >Armá un portal de clientes para organizar todos sus datos, incluyendo el seguimiento de órdenes y reclamaiones, acceso a faturas y órdenes de envío, todo en el mismo lugar</li>
+        <li >Personalizá las páginas de productos para mostrar su negocio de una forma única.</li>
+        <li >Añadí atributos tales como color, talla o estulo para que sea más cómodo navegar entre las distintas líneas de productos</li>
+        <li >Aumentá tus vengas gracias al restablecimiento del carrito de compras, la venta cruzada y las oportunidades de ventas complementarias en las páginas de productos, en el carrito o en la página de pago.</li>
+        <li >Fomentá ventas usando códigos promocionales y cupones</li>
+        <li >Integrá formas de pagos con las opciones más utilizadas en la actualidad.</li>
+        <li >Enviá y agilizá el cumplimiento de pedidos con los principales proveedores.</li>
+        <li >Sincronizá inventario y ventas automaticamente.</li>
       </ul>
     </div>
     </div>
@@ -125,21 +128,23 @@
       <div class="col-sm-4 col-sm-offset-4 col-md-offset-0 text-center">
         <!-- Web Apps -->
         <h4 class="black-text">
-          Trabajamos desde la cooperativa para ofrecerle a cada<br/>
-          cliente una propuesta estrategia de creación o de <br/>
-          continuidad en el diseño de su identidad marcaria, para <br/>
-          posicionarse en la mente del consumidor <br/>
+        Es una de las plataformas educativas mas reconocidas en el mundo 
+        al considerarse como la mejor herramienta 
+        para la creacion de cursos en linea dinámicos, personalizados 
+        y adaptables según la institución que lo gestione. 
+        Es de código abierto y uso libre, con suficiente madurez, 
+        robusto, escalable, extensible y basado en estandares de la web.<br/>
         </h4>
       </div>
       <div class="col-sm-4 styled-ul black-text">
         <ul>
-          <li class="facilita">Lorem Ipsum is not simply random text.</li>
-          <li class="flexible">Lorem Ipsum is not simply random text.</li>
-          <li class="actividades">Lorem Ipsum is not simply random text.</li>
-          <li class="seguimiento">Lorem Ipsum is not simply random text.</li>
-          <li class="colectivo">Lorem Ipsum is not simply random text.</li>
-          <li class="adaptable">Lorem Ipsum is not simply random text.</li>
-          <li class="traducido">Lorem Ipsum is not simply random text.</li>
+          <li class="facilita">Facilita la comunicación entre docentes-estudiantes.</li>
+          <li class="flexible">Es flexible a los horarios.</li>
+          <li class="actividades">Implementa diversas actividades.</li>
+          <li class="seguimiento">Sigue de modo exhaustivo el trabajo de los estudiantes.</li>
+          <li class="colectivo">Ayuda al aprendizaje cooperativo.</li>
+          <li class="adaptable">Adaptable a la imágen marcaria de la institución.</li>
+          <li class="traducido">Se encuentra traducido a mas de 70 idiomas.</li>
         </ul>
       </div>
     </div>

@@ -49,10 +49,10 @@
       <div class="col-md-4">
         <!-- Web Apps -->
         <h4 class="black-text">
-          Trabajamos desde la cooperativa para ofrecerle a cada
-          cliente una propuesta estrategia de creación o de
-          continuidad en el diseño de su identidad marcaria, para
-          posicionarse en la mente del consumidor
+        The most complete open source management software.
+        It has a set of applications to carry out the mission of a company in an integral way. 
+        In other words, all the actions and transactions generated from an area are reflected and impacted in all areas immediately, 
+        achieving a unified management of information for decision-making.
         </h4>
       </div>
     </div>
@@ -62,7 +62,7 @@
       <div class="row geneos-quotes-odoo">
         
         <h2 class="black-text text-center">
-          Todo tu negocio en una plataforma
+          All your business on one platform
         </h2>
         
       </div>
@@ -84,22 +84,23 @@
   <!-- Container -->
   <div class="container sm-padding">
     <div class="row">
-    <div class="col-sm-6">
-      <img src="img/platforms/imagen_izq_odoo.png" title="Ecommerce con Odoo" alter="Ecommerce con Odoo"/>
-    </div>
+      <div class="col-sm-6">
+        <img src="img/platforms/imagen_izq_odoo.png" title="Ecommerce con Odoo" alter="Ecommerce con Odoo"/>
+      </div>
 
-    <div class="col-sm-6 styled-ul black-text md-padding">
-      <h2  class="violet-text"> CREÁ UN E-COMMERCE DINAMICO Y ADAPTALO A TU MARCA</h2>
-      <ul>
-        <li >is simply dummy text of the printing and typesetting </li>
-        <li >is simply dummy text of the printing and typesetting </li>
-        <li >is simply dummy text of the printing and typesetting </li>
-        <li >is simply dummy text of the printing and typesetting </li>
-        <li >is simply dummy text of the printing and typesetting </li>
-        <li >is simply dummy text of the printing and typesetting </li>
-        <li >is simply dummy text of the printing and typesetting </li>
-      </ul>
-    </div>
+      <div class="col-sm-6 styled-ul black-text md-padding">
+        <h2  class="violet-text">CREATE A DYNAMIC E-COMMERCE AND ADAPT IT TO YOUR BRAND</h2>
+          <ul>
+            <li >Set up a customer portal to organize all your data, including order and claim tracking, access to invoices and shipping orders, all in the same place</li>
+            <li >Customize product pages to show your business in a unique way.</li>
+            <li >Add attributes such as color, size or style to make it more comfortable to navigate between the different product lines</li>
+            <li >Increase your sales thanks to the resetting of the shopping cart, cross-selling and complementary sales opportunities on the product pages, in the cart or on the checkout page.</li>
+            <li >Boost sales using promo codes and coupons.</li>
+            <li >Integrate with multiple payment gateways.</li>
+            <li >Send and expedite the fulfillment of orders with the main suppliers.</li>
+            <li >Synchronize inventory and sales automatically..</li>
+          </ul>
+      </div>
     </div>
   </div>
   <!-- Container -->
@@ -123,23 +124,25 @@
         <img src="img/platforms/logo_moodle.png" alt="">
       </div>
       <div class="col-sm-4 col-sm-offset-4 col-md-offset-0 text-center">
-        <!-- Web Apps -->
+        <!-- Moodle -->
         <h4 class="black-text">
-          Trabajamos desde la cooperativa para ofrecerle a cada<br/>
-          cliente una propuesta estrategia de creación o de <br/>
-          continuidad en el diseño de su identidad marcaria, para <br/>
-          posicionarse en la mente del consumidor <br/>
+        It's one of the most recognized educational platforms in the world
+        as it is considered the best tool for creating dynamic, 
+        personalized and adaptable online courses depending on 
+        the institution that manages it. 
+        It is open source and free to use, mature enough, robust,
+        scalable, extensible and based on web standards.<br/>
         </h4>
       </div>
       <div class="col-sm-4 styled-ul black-text">
         <ul>
-          <li class="facilita">Lorem Ipsum is not simply random text.</li>
-          <li class="flexible">Lorem Ipsum is not simply random text.</li>
-          <li class="actividades">Lorem Ipsum is not simply random text.</li>
-          <li class="seguimiento">Lorem Ipsum is not simply random text.</li>
-          <li class="colectivo">Lorem Ipsum is not simply random text.</li>
-          <li class="adaptable">Lorem Ipsum is not simply random text.</li>
-          <li class="traducido">Lorem Ipsum is not simply random text.</li>
+          <li class="facilita">Facilitates communication between teachers-students.</li>
+          <li class="flexible">It is flexible to schedules.</li>
+          <li class="actividades">Implement various activities.</li>
+          <li class="seguimiento">Follow students work exhaustively</li>
+          <li class="colectivo">Helps collective learning.</li>
+          <li class="adaptable">Adaptable to the brand image of the institution.</li>
+          <li class="traducido">It is translated into more than 70 languages.</li>
         </ul>
       </div>
     </div>

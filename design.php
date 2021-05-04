@@ -22,10 +22,10 @@
       <div class="col-md-4">
         <!-- Web Apps -->
         <h4>
-          Trabajamos desde la cooperativa para ofrecerle a cada
-          cliente una propuesta estrategia de creación o de
-          continuidad en el diseño de su identidad marcaria, para
-          posicionarse en la mente del consumidor
+          We work from the cooperative to offer each
+          client a proposed strategy of creation or
+          continuity in the design of its brand identity, to
+          position yourself in the mind of the consumer
         </h4>
       </div>
 
@@ -50,20 +50,20 @@
 
     <div class="col-md-6 slogan">
       <h2 class="green-text">
-        <span class="font-caveat">Nos especializamos en</span>
-        <span>Diseño de piezas digitales</span>
+        <span class="font-caveat">We specialize in</span>
+        <span>Design of digital pieces</span>
       </h2>
     </div>
 
     <div class="col-md-6 styled-ul grey-text">
       <ul>
-        <li class="web">Sitios Web</li>
+        <li class="web">Websites</li>
         <li class="email">Email-marketing</li>
-        <li class="redes">Redes sociales: flyer, perfiles, portadas, comunicados</li>
-        <li class="videos">Videos Institucionales</li>
-        <li class="pictograma">Pictogramas</li>
-        <li class="papeleria">Papeleria digital: talonarios, presupuestos, documentos</li>
-        <li class="presentaciones">Presentaciones Digitales Dinámicas</li>
+        <li class="redes">Social medias: flyers, profiles, covers</li>
+        <li class="videos">Institutional Videos</li>
+        <li class="pictograma">Pictograms</li>
+        <li class="papeleria">Digital stationery: counterfoil, budgets, documents</li>
+        <li class="presentaciones">Dynamic Digital Presentations</li>
       </ul>
     </div>
     
@@ -76,7 +76,7 @@
 
 <div id="about" class="section">
   <div class="section-header text-center sm-padding">
-    <h2 class="title green green-text">¿Qué necesitas?</h2>
+    <h2 class="title green green-text">What do you need?</h2>
   </div>
   <!-- Container -->
   <div class="container">
@@ -113,19 +113,19 @@
       <div class="row">
         <div id="about-what-u-need-slider" class="col-md-4 white">
           <div class="about">
-            <h3>Crear una marca desde cero</h3>
+            <h3>Create a brand from scratch</h3>
             <br/><br/><br/>
-            <p>Nos proponemos a partir de un concepto cocreado con ustedes, junto a la cultura e identidad corporativa que posean o desean generar una imagen de marca desde cero, con todos los elementos y aplicaciones graficas y multimediales que requieran.</p>
+            <p>We propose ourselves from a concept co-created with you, together with the culture and corporate identity that you have or wish to generate, a brand image from scratch, with all the graphic and multimedia elements and applications that you require.</p>
           </div>
           <div class="about contenedor">
-            <h3>Rediseñar una marca</h3>
+            <h3>Redesign a brand</h3>
             <br/><br/><br/>
-            <p>Es fácil deducir cuando un anuncio es antiguo, y con las marcas los años también pasan. Las modas y las tecnologías avanzan. Nos proponemos reposicionar nuevamente la marca, diseñando lo que fuera necesario y aplicándolo en diversos mensajes.</p>
+            <p>It's easy to tell when an ad is old, and with brands the years go by too. Fashions and technologies advance. We propose to reposition the brand again, designing what is necessary and applying it in various messages.</p>
           </div>
           <div class="about contenedor">
-            <h3>Aplicar la identidad marcaria</h3>
+            <h3>Apply the brand identity</h3>
             <br/><br/><br/>
-            <p>Desde un ícono, hasta el color de las prendas deben tener sinergia en comunicación, logrando transmitir mensajes unidos bajo una estrategia de identidad marcaria. En base a cada empresa buscamos transmitir diferentes mensajes con una misma estética.</p>
+            <p>From an icon, to the color of the garments, they must have synergy in communication, managing to transmit messages united under a brand identity strategy. Based on each company we seek to transmit different messages with the same esthetic.</p>
           </div>
         </div>
         <div class="col-md-8">

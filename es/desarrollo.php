@@ -69,10 +69,10 @@
       <div class="row ">
         <div class="col-md-offset-4 col-md-4 text-center">
         <h4 class="black-text">
-            Trabajamos desde la cooperativa para ofrecerle a cada
-            cliente una propuesta estrategia de creación o de
-            continuidad en el diseño de su identidad marcaria, para
-            posicionarse en la mente del consumidor
+        Convertimos tu idea en una <b>aplicación móvil desde cero</b> 
+        o <b>adaptamos la actual a nuevos contextos y desafíos</b>, 
+        para que todos tus clientes o usuarios desde cualquier 
+        lugar estén conectados a tu negocio.
           </h4>
           <div class="col-xs-4 text-center">
             <img src="../img/development/icon_react_native.png" alt="">
@@ -113,14 +113,14 @@
 
       <div class="col-xs-offset-5 styled-ul">
         <ul>
-          <li class="geolocalizacion">is simply dummy text</li>
-          <li class="formacion">is simply dummy text</li>
-          <li class="juegos">is simply dummy text</li>
-          <li class="qr">is simply dummy text</li>
-          <li class="ecommerce">is simply dummy text</li>
-          <li class="encuestas">is simply dummy text</li>
-          <li class="publicidad">is simply dummy text</li>
-          <li class="movilidad">is simply dummy text</li>
+          <li class="geolocalizacion">Geoloalización y Mapeo</li>
+          <li class="formacion">Formación/Capacitaciones</li>
+          <li class="juegos">Juegos/Gamificación</li>
+          <li class="qr">Identificación QR</li>
+          <li class="ecommerce">Comercio Electrónico</li>
+          <li class="encuestas">Encuestas</li>
+          <li class="publicidad">Publicidad</li>
+          <li class="movilidad">Movilidad/Carpooling</li>
         </ul>
       </div>
       </div>
@@ -151,10 +151,9 @@
         <div class="col-md-4 ">
           <!-- Web Apps -->
           <h4 class="black-text text-center">
-            Trabajamos desde la cooperativa para ofrecerle a cada
-            cliente una propuesta estrategia de creación o de
-            continuidad en el diseño de su identidad marcaria, para
-            posicionarse en la mente del consumidor
+          Somos un equipo de profesionales con respaldo organizaciones, 
+          capacitados permanentemente dedicados a sus necesidades 
+          con un enfoque proactivo y experiencia en metodologías ágiles
           </h4>
           <ul class="col-xs-offset-4 black-text">
             <li>Desarrollo web Angular</li>
