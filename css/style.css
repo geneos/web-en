@@ -2427,7 +2427,8 @@ box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
 }
 
 #about-slider-for .blog-content,
-#success-history-slider .blog-content{
+#success-history-slider .blog-content,
+#success-history-slider2 .blog-content {
     text-align: left;
 }
 
@@ -3136,7 +3137,7 @@ box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
 
 .geneos-quotes-design.right {
   text-align: right;
-  padding-right: 160px;
+  padding-right: 180px;
 }
 
 #design #who-we-are h2 {
@@ -3243,6 +3244,7 @@ box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
 
 #design #about #about-what-u-need-slider + .col-md-8{
   padding-top:15px;
+  height: 379px;
 }
 
 #about-what-u-need-for .service-link {

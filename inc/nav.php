@@ -30,7 +30,7 @@
         <li class="main-item"><a href="<?php if(PAGE_NAME != 'development') echo 'development.php' ?>#staff-augmentation">STAFF AUGMENTATION</a></li>
         <li class="main-item"><a href="<?php if(PAGE_NAME != 'platforms') echo 'platforms.php' ?>#odoo">MANAGMENT SOFTWARE</a></li>
         <li class="main-item"><a href="<?php if(PAGE_NAME != 'platforms') echo 'platforms.php' ?>#moodle">ELEARNING PLATFORM</a></li>
-        <li class="main-item"><a href="#footer">CONTACT</a></li>
+        <li class="main-item"><a href="#form">CONTACT</a></li>
 
       </ul>
       <!-- /Main navigation -->
