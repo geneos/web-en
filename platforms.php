@@ -1,4 +1,6 @@
 <?php DEFINE('PAGE_NAME','platforms') ?>
+<?php DEFINE('CURRENT_PAGE_ES','plataformas') ?>
+<?php DEFINE('CURRENT_PAGE_EN','platforms') ?>
 
 <?php include('inc/head.php') ?>
 <?php include('inc/nav.php') ?>

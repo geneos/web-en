@@ -1,4 +1,6 @@
 <?php DEFINE('PAGE_NAME','design') ?>
+<?php DEFINE('CURRENT_PAGE_ES','diseno') ?>
+<?php DEFINE('CURRENT_PAGE_EN','design') ?>
 
 <?php include('../inc/es/head.php') ?>
 <?php include('../inc/es/nav.php') ?>

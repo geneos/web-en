@@ -389,7 +389,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 #nav.navbar {
-    padding: 10px 0px;
+    padding: 0 0 10px 0px;
     border: none;
     border-radius: 0;
     margin-bottom: 0px;
@@ -405,9 +405,15 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     position: fixed;
     left: 0;
     right: 0;
-    padding: 10px 0px;
+    padding: 0 0 10px 0px;
     background-color: #FFF !important;
     border-bottom: 1px solid #EEE;
+}
+
+#nav.fixed-nav .lang-menu-container {
+  transition:1s all;
+  margin-bottom:10px;
+  padding:5px 0px;
 }
 
 #nav.nav-transparent {
@@ -2633,7 +2639,7 @@ box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
   background-color: transparent;
   height: 715px;
   border-bottom: 9px solid white;
-  padding-top: 100px;
+  padding-top: 170px;
 }
 
 #services-main .background-img .col-md-4 {
@@ -2868,6 +2874,30 @@ box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
 #nav.fixed-nav .nav-collapse{
   margin-top:10px;
   transition: 1s all;
+}
+
+#nav .lang-menu img {
+  height:20px;
+  width:20px;
+  margin:0px;
+  transition: 1s all;
+}
+
+#nav .lang-menu .active img,
+#nav .lang-menu li a:hover img {
+  height:26px;
+  width:26px;
+}
+
+#nav .lang-menu li {
+  float:right;
+  width:35px;
+}
+
+.lang-menu-container {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  margin-bottom:30px;
+  padding:10px 0px;
 }
 
 @media only screen and (max-width: 767px) {

@@ -1,4 +1,7 @@
 <?php DEFINE('PAGE_NAME','home') ?>
+<?php DEFINE('CURRENT_PAGE_ES','index') ?>
+<?php DEFINE('CURRENT_PAGE_EN','index') ?>
+
 
 <?php include('../inc/es/head.php') ?>
 <?php include('../inc/es/nav.php') ?>
@@ -89,10 +92,10 @@
             <img src="../img/news/fondo.png" alt="">
           </div>
           <div>
-            <img src="../img/news/fondo.png" alt="">
+            <img src="../img/news/fondo2.jpg" alt="">
           </div>
           <div>
-            <img src="../img/news/fondo.png" alt="">
+            <img src="../img/news/fondo3.jpg" alt="">
           </div>
         </div>
         <!-- about -->
@@ -248,10 +251,10 @@
 			"id" => "cla"
 		],
 		[
-			"name" => "Bruno Tubino",
+			"name" => "Marcos Reginato",
 			"desc_short" => "Software Developer / Web Front-end and Back-end Developer",
 			"desc_long" => "Skills: <ul class=\"ul-styled\"><li>Odoo Platform</li><li>Web Developer</li></ul>",
-			"id" => "bruno"
+			"id" => "marcos"
 		],
 		[
 			"name" => "Santiago Costa",

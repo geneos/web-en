@@ -100,10 +100,11 @@
 
               <!-- footer follow -->
               <ul class="footer-follow">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-github"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a target="_blank" href="https://www.facebook.com/coopgeneos"><i class="fa fa-facebook"></i></a></li>
+                <!--li><a href="#"><i class="fa fa-twitter"></i></a></li-->
+                <li><a target="_blank" href="https://www.instagram.com/coopgeneos/"><i class="fa fa-instagram"></i></a></li>
+                <!--li><a href="#"><i class="fa fa-github"></i></a></li-->
+                <li><a target="_blank" href="https://ar.linkedin.com/company/geneos-coop"><i class="fa fa-linkedin"></i></a></li>
               </ul>
               <!-- /footer follow -->
 
